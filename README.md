@@ -6,7 +6,7 @@ This project aims to document and visualize significant events in Alaska Native 
 ## To Do
 - Change domain name
 - Adjust README
-- Add domain to desc
+- Adjust description
 - Everything else
 
 ## License

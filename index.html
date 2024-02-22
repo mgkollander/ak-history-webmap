@@ -39,14 +39,41 @@
         crossorigin=""></script>
 
     <script>
-        // Initialize map and set view to Alaska
-        var map = L.map('map').setView([64.2008, -149.4937], 6);
+        // Define bounds for map (taken from OSM manual boundary)
+        var bounds = [
+            [44.78, -187.91], // SW corner
+            [72.05, -125.60], // NE corner
+        ];
+
+        // Initialize map and set view
+        var map = L.map('map', {
+            maxBounds: bounds, // Set max bounds
+            maxBoundsViscosity: 1.0, // Stay in bounds when dragging map
+            minZoom: 5,
+        }).setView([62.735,-156.467], 5);
+
+        // Stamen Terrain Tiles
+        var tileLayer = L.tileLayer
 
         // Add OpenStreetMap tiles to the map
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+            maxZoom: 8,
+            attribution: '&copy; <a href="https://www.opentopomap.org/">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA</a>) | Robert Hollowood & Mary Kollander'
         }).addTo(map);
+
+        // Set initial zoom level to disable dragging (5)
+        if (map.getZoom() === 5) {
+            map.dragging.disable();
+        }
+        
+        // Event listener to disable dragging when zoom level is 5
+        map.on('zoomend', function() {
+            if (map.getZoom() === 5) {
+                map.dragging.disable();
+            } else {
+                map.dragging.enable();
+            }
+        });
     </script>
 </body>
 </html>

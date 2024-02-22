@@ -2,78 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>Alaska History Webmap</title>
-    <!-- Leaflet CSS file --> 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-        crossorigin=""/>
- 
-    <style>
-        /* Set HTML and body to full height */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Define height of map container (fill viewport) */
-        #map {
-            height: 100vh; /* 100% of viewport height */
-        }
-    </style>
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="styles.css">
     <!-- Prevent caching (to see GitHub Pages updates, might remove later) -->
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-
 </head>
 <body>
-    <!-- Initialize Leaflet map -->
     <div id="map"></div>
-
-    <!-- Leaflet JavaScript file -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin=""></script>
-
-    <script>
-        // Define bounds for map (taken from OSM manual boundary)
-        var bounds = [
-            [44.78, -187.91], // SW corner
-            [72.05, -125.60], // NE corner
-        ];
-
-        // Initialize map and set view
-        var map = L.map('map', {
-            maxBounds: bounds, // Set max bounds
-            maxBoundsViscosity: 1.0, // Stay in bounds when dragging map
-            minZoom: 5,
-        }).setView([62.735,-156.467], 5);
-
-        // Stamen Terrain Tiles
-        var tileLayer = L.tileLayer
-
-        // Add OpenStreetMap tiles to the map
-        L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-            maxZoom: 8,
-            attribution: '&copy; <a href="https://www.opentopomap.org/">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA</a>) | Robert Hollowood & Mary Kollander'
-        }).addTo(map);
-
-        // Set initial zoom level to disable dragging (5)
-        if (map.getZoom() === 5) {
-            map.dragging.disable();
-        }
-        
-        // Event listener to disable dragging when zoom level is 5
-        map.on('zoomend', function() {
-            if (map.getZoom() === 5) {
-                map.dragging.disable();
-            } else {
-                map.dragging.enable();
-            }
-        });
-    </script>
+    <!-- JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="map.js"></script>
 </body>
 </html>

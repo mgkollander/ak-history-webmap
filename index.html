@@ -2,12 +2,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alaska Webmap</title>
+    <!-- Leaflet CSS file --> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+    <style>
+        /* Define height of map container */
+        #map {
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Test</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum suscipit optio in quod alias atque incidunt totam, odit eaque nemo? Dolor atque earum quae, aliquam veniam esse aliquid nihil illum.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem perferendis ut, dolorum suscipit voluptatum quibusdam vel, laborum necessitatibus quasi consectetur similique ea enim animi aperiam. Odit eos labore veritatis libero.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed totam voluptate eaque dolores nemo magnam. Incidunt doloribus praesentium, corrupti laboriosam ipsum molestiae adipisci, fugiat veritatis repudiandae quo fugit quisquam culpa.</p>
+    <!-- Initialize Leaflet map -->
+    <div id="map" style="height: 400px;"></div>
+
+    <!-- Leaflet JavaScript file -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+    <script>
+        // Initialize map and set view to Alaska
+        var map = L.map('map').setView([64.2008, -149.4937], 6);
+
+        // Add OpenStreetMap tiles to the map
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+    </script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "My cat Muffin",
+          "startDate": 2011,
+          "endDate": "Present",
+          "hasImage": true,
+          "imageUrl": "images/cat.JPG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-149.6812, 61.1107]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Test marker 1",
+          "startDate": 1750,
+          "endDate": 1780,
+          "hasImage": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-159.040, 67.793]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Test marker 2",
+          "startDate": 1800,
+          "endDate": 1810,
+          "hasImage": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-154.040, 62.793]
+        }
+      }
+    ]
+}
+  

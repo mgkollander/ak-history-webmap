@@ -40,6 +40,19 @@
           "type": "Point",
           "coordinates": [-154.040, 62.793]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Default",
+          "startDate": 2024,
+          "endDate": 2024,
+          "hasImage": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-148.7349, 63.9646]
+        }
       }
     ]
 }

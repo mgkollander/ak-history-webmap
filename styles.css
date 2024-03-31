@@ -1,8 +1,67 @@
-body {
+*, :after, :before {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-html, body, #map {
+
+html, body {
     height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+#map {
+    position: relative;
     width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#slider {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    z-index: 1000;
+    width: 50%;
+    height: 10px;
+}
+
+.fade-out,
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+.slider-styled .noUi-handle {
+    box-shadow: none;
+    border-color: #70707060;
+    border-radius: 5px;
+    height: 18px;
+    width: 18px;
+    top: -5px;
+    right: -9px;
+}
+
+.slider-styled .noUi-handle::before,
+.slider-styled .noUi-handle::after {
+    display: none;
+}
+
+#slider .noUi-connect {
+    background: #a3000098;
+}
+
+.noUi-tooltip {
+    font-family: "Roboto", sans-serif;
 }

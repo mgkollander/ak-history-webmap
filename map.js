@@ -105,7 +105,7 @@ let geojsonLayer = L.geoJSON(null, {
         // Create a custom icon for the marker with no shadow
         var customIcon = L.icon({
             iconUrl: 'data/icons/pin.png', // URL to the marker icon image
-            iconSize: [65, 65],         // Size of the icon image
+            iconSize: [64, 64],         // Size of the icon image
             iconAnchor: [10, 30],       // Anchor point of the icon image
             popupAnchor: [22, -28],      // Popup anchor relative to the icon
             shadowUrl: '',              // No shadow URL

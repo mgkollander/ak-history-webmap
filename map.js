@@ -58,7 +58,7 @@ function initializeSlider() {
         range: { 'min': 1750, 'max': 2024 }
     });
 
-    mergeTooltips(slider, Math.floor(9438/window.innerWidth), ' - ');
+    mergeTooltips(slider, Math.floor(9800/window.innerWidth), ' - ');
 
     // Listen for slider changes
     slider.noUiSlider.on('update', function(values) {
@@ -73,13 +73,12 @@ const map = L.map('map', {
     maxBounds: [[46.56, -189.14],[73.15, -123.93]],
     maxBoundsViscosity: 0.5,
     minZoom: calculateMinZoom(),
-    maxZoom: 8
+    maxZoom: 8,
+    attributionControl: false
 }).setView([64.793, -153.040], calculateMinZoom());
 
 // Add tile layer to map
-L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.opentopomap.org/">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA</a>)'
-}).addTo(map);
+L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png').addTo(map);
 
 // Set slider handle start and end years
 let [currentStartYear, currentEndYear] = [1750, 2024];
@@ -106,9 +105,9 @@ let geojsonLayer = L.geoJSON(null, {
         // Create a custom icon for the marker with no shadow
         var customIcon = L.icon({
             iconUrl: 'data/icons/pin.png', // URL to the marker icon image
-            iconSize: [30, 30],         // Size of the icon image
+            iconSize: [65, 65],         // Size of the icon image
             iconAnchor: [10, 30],       // Anchor point of the icon image
-            popupAnchor: [6, -30],      // Popup anchor relative to the icon
+            popupAnchor: [22, -28],      // Popup anchor relative to the icon
             shadowUrl: '',              // No shadow URL
             shadowSize: [0, 0],         // No shadow size
             shadowAnchor: [0, 0]        // No shadow anchor
@@ -120,7 +119,7 @@ let geojsonLayer = L.geoJSON(null, {
 }).addTo(map);
 
 // Fetch GeoJSON data and add it to the map
-fetch('markerdata.geojson')
+fetch('markerData.geojson')
     .then(response => response.json())
     .then(data => {
         geojsonLayer.addData(data);
@@ -135,22 +134,3 @@ window.addEventListener('resize', function() {
     map.setMinZoom(calculateMinZoom());
     initializeSlider();
 });
-
-/*
-TO DO:
-    - Markers with uncertain location load a geographical location blob/circle
-    - Markers cluster when close together (check case of clustered markers changing number when moving range)
-    - Marker popup should have optional image, bold date, description under
-    - Marker popup should have two tabs, one for source or more info?
-    - About button top right, question mark icon that opens a new window (story board?) you can scroll through and exit out of
-        - GitHub link
-        - License
-        - Attribution
-            - Favicon
-            - Marker image
-            - noUISlider
-            - noUiSlider merge function
-        - General info + authors + data source
-    - Custom domain
-    - GitHub page organization
-*/

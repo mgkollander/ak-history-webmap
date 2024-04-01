@@ -2,14 +2,26 @@
 This project aims to document and visualize epidemic diseases in Alaska Native history.
 
 ## To Do
-1. Markers cluster when close together
-2. Markers with uncertain location load a geographical estimate blob/circle
-3. Markers cluster when close together
-4. Marker popup should have optional image, bold date, description under
-5. Possibly add two tabs to markers, one for sources or more information?
-6. Add an abot button to the top right - question mark icon that opens an overlapping window. Should include GitHub link, license, attributions to favicon, marker images, noUiSlider, general information, authors, data sources, ...
-7. Custom domain
-8. GitHub page organization
+* Markers cluster when close together
+* Marker popup disappears when timeline slider range is moved
+* Make marker popups look nicer
+  * Possibly have two tabs, one for sources or more information?
+* Markers with uncertain location load a geographical estimate blob/circle
+  * Custom marker icons for both types
+* Custom domain
+* GitHub repo/page organization
+* About button in the top right
+  * Question mark / info icon
+  * Opens overlapping window that shows information
+    * GitHub link
+    * License
+    * Attributions
+      * Favicon
+      * Custom markers
+      * noUiSlider
+    * Any general information about the project
+    * Project authors
+* Make everything more aesthetically pleasing
 
 ## License
 This project is licensed under the [GNU General Public License v3.0](LICENSE).

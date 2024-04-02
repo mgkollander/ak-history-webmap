@@ -23,7 +23,7 @@
             "startDate": 2011,
             "endDate": 2024,
             "hasImage": true,
-            "imageUrl": "data/images/cat.JPG",
+            "imageUrl": "data/markerImgs/cat.JPG",
             "hasRange": false
         },
         "geometry": {

@@ -1,80 +1,126 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
+    "type": "FeatureCollection",
+    "features": [
+      {
         "type": "Feature",
         "properties": {
-            "description": "Test 1",
-            "startDate": 1750,
-            "endDate": 1750,
-            "hasImage": false,
-            "imageUrl": "",
-            "hasRange": false
+          "description": "Test 1",
+          "startDate": 1750,
+          "endDate": 1750,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
         },
         "geometry": {
-            "type": "Point",
-            "coordinates": [-153.040, 64.793]
+          "type": "Point",
+          "coordinates": [-153.040, 64.793]
         }
-    },
-    {
+      },
+      {
         "type": "Feature",
         "properties": {
-            "description": "Test 2",
-            "startDate": 2011,
-            "endDate": 2020,
-            "hasImage": true,
-            "imageUrl": "data/markerImgs/cat.JPG",
-            "hasRange": false
+          "description": "Test 2",
+          "startDate": 2011,
+          "endDate": 2020,
+          "hasImage": true,
+          "imageUrl": "data/markerImgs/cat.JPG",
+          "hasRange": false
         },
         "geometry": {
-            "type": "Point",
-            "coordinates": [-149.9003, 61.2181]
+          "type": "Point",
+          "coordinates": [-149.9003, 61.2181]
         }
-    },
-    {
+      },
+      {
         "type": "Feature",
         "properties": {
-            "description": "Test 3",
-            "startDate": 2002,
-            "endDate": 2020,
-            "hasImage": false,
-            "imageUrl": "",
-            "hasRange": false
+          "description": "Test 3",
+          "startDate": 2002,
+          "endDate": 2020,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
         },
         "geometry": {
-            "type": "Point",
-            "coordinates": [-148.0, 61.2181]
+          "type": "Point",
+          "coordinates": [-148.0, 61.2181]
         }
-    },
-    {
+      },
+      {
         "type": "Feature",
         "properties": {
-            "description": "Test 4",
-            "startDate": 1850,
-            "endDate": 1900,
-            "hasImage": false,
-            "imageUrl": "",
-            "hasRange": false
+          "description": "Test 4",
+          "startDate": 1850,
+          "endDate": 1900,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
         },
         "geometry": {
-            "type": "Point",
-            "coordinates": [-158.027344, 61.7939]
+          "type": "Point",
+          "coordinates": [-158.027344, 61.7939]
         }
-    },
-    {
+      },
+      {
         "type": "Feature",
         "properties": {
-            "description": "Test 5",
-            "startDate": 1970,
-            "endDate": 2000,
-            "hasImage": false,
-            "imageUrl": "",
-            "hasRange": false
+          "description": "Test 5",
+          "startDate": 1970,
+          "endDate": 2000,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
         },
         "geometry": {
-            "type": "Point",
-            "coordinates": [-160.027344, 61.7939]
+          "type": "Point",
+          "coordinates": [-160.027344, 61.7939]
         }
-    }
-  ]
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Test 6",
+          "startDate": 1995,
+          "endDate": 2005,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-166.027344, 61.7939]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Test 7",
+          "startDate": 2020,
+          "endDate": 2022,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-163.027344, 61.7939]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Test 8",
+          "startDate": 2020,
+          "endDate": 2020,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-163.627344, 61.9939]
+        }
+      }
+    ]
 }
+  

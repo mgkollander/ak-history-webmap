@@ -21,7 +21,7 @@
         "properties": {
             "description": "Test 2",
             "startDate": 2011,
-            "endDate": 2024,
+            "endDate": 2020,
             "hasImage": true,
             "imageUrl": "data/markerImgs/cat.JPG",
             "hasRange": false
@@ -36,7 +36,7 @@
         "properties": {
             "description": "Test 3",
             "startDate": 2002,
-            "endDate": 2024,
+            "endDate": 2020,
             "hasImage": false,
             "imageUrl": "",
             "hasRange": false

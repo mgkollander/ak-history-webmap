@@ -18,15 +18,17 @@ body {
 }
 
 #map {
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
 #slider {
-    margin: auto;
+    position: absolute;
     bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
     width: 75%;
     border: none;
@@ -44,6 +46,7 @@ body {
     font-size: 21px;
     background-color: #edf0f8;
     border-radius: 10px;
+    border: none;
     color: #545E75;
 }
 

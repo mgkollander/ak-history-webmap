@@ -6,7 +6,7 @@
         "properties": {
           "description": "Test 1",
           "startDate": 1750,
-          "endDate": 1750,
+          "endDate": 1800,
           "hasImage": false,
           "imageUrl": "",
           "hasRange": false
@@ -50,7 +50,7 @@
         "type": "Feature",
         "properties": {
           "description": "Test 4",
-          "startDate": 1850,
+          "startDate": 1800,
           "endDate": 1900,
           "hasImage": false,
           "imageUrl": "",

@@ -128,11 +128,20 @@ function initializeSlider() {
     // Merge slider tooltips when overlapping
     mergeTooltips(slider, Math.floor(8600 / window.innerWidth), ' - ');
 
+    // Add event listener for slider slide event
+    slider.noUiSlider.on('slide', function(values) {
+        // Get current slider values
+        let sliderStartYear = parseInt(values[0]);
+        let sliderEndYear = parseInt(values[1]);
+
+        filterMarkersByRange(sliderStartYear, sliderEndYear);
+    });
+    
     return slider;
 }
 
 // Initialize slider
-const slider = initializeSlider();
+let slider = initializeSlider();
 
 // Function to filter markers by slider range
 const filterMarkersByRange = (sliderStartYear, sliderEndYear) => {
@@ -155,17 +164,8 @@ const filterMarkersByRange = (sliderStartYear, sliderEndYear) => {
     leafletView.ProcessView();
 };
 
-// Add event listener for slider slide event
-slider.noUiSlider.on('slide', function(values) {
-    // Get current slider values
-    let sliderStartYear = parseInt(values[0]);
-    let sliderEndYear = parseInt(values[1]);
-
-    filterMarkersByRange(sliderStartYear, sliderEndYear);
-});
-
 // Listen for window resize
 window.addEventListener('resize', function() {
     map.setMinZoom(calculateMinZoom());
-    initializeSlider();
+    slider = initializeSlider();
 });

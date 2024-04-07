@@ -1,5 +1,5 @@
 /**
- * From https://refreshless.com/nouislider/examples/
+ * Sourced from https://refreshless.com/nouislider/examples/
  * 
  * @param slider HtmlElement with an initialized slider
  * @param threshold Minimum proximity (in percentages) to merge tooltips

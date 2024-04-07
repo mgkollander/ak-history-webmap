@@ -29,6 +29,5 @@ export const map = L.map('map', mapConfig).setView(INITIAL_COORDINATES, calculat
 // Layer control
 L.control.layers({
     'Topological Map': createTileLayer(DEFAULT_TILE_LAYER),
-    'Stamen Terrain': createTileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.png'),
-    'Stamen Terrain Background': createTileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png')
+    'Street Map': createTileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'),
 }).addTo(map);

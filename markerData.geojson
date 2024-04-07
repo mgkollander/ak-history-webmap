@@ -120,6 +120,21 @@
           "type": "Point",
           "coordinates": [-163.627344, 61.9939]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "Test 9",
+          "startDate": 2017,
+          "endDate": 2020,
+          "hasImage": false,
+          "imageUrl": "",
+          "hasRange": false
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-163.627344, 61.9939]
+        }
       }
     ]
 }

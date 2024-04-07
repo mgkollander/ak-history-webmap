@@ -1,4 +1,3 @@
-
 // Function to calculate minimum zoom based on current screen width
 const calculateMinZoom = () => document.documentElement.clientWidth < 768 ? 4 : 5;
 
@@ -16,7 +15,7 @@ L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png').addTo(map);
 
 // Initialize PruneCluster
 const leafletView = new PruneClusterForLeaflet();
-leafletView.Cluster.Size = 50;
+leafletView.Cluster.Size = 150;
 
 // Customize marker behavior
 leafletView.PrepareLeafletMarker = function(leafletMarker, data) {
@@ -53,32 +52,63 @@ let markersOnMapFeatures = [];
 let markersOnMapMarkers = [];
 
 // Fetch GeoJSON and store marker data
-fetch('markerData.geojson')
-    .then(response => response.json())
-    .then(data => {
-        // Store in array
-        markerData = data.features;
+const fetchMarkerData = async () => {
+    const response = await fetch('markerData.geojson');
+    const data = await response.json();
+    return data.features;
+};
 
-        // Add markers in initial slider range
-        markerData.forEach(feature => {
-            if (feature.properties.startDate <= 1800 && feature.properties.endDate >= 1750) {
-                const marker = new PruneCluster.Marker(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
-                marker.data.properties = feature.properties;
-                leafletView.RegisterMarker(marker);
+// Create a new marker
+const createMarker = (feature) => {
+    const marker = new PruneCluster.Marker(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
+    marker.data.properties = feature.properties;
+    leafletView.RegisterMarker(marker);
+    return marker;
+};
 
-                markersOnMapFeatures.push(feature);
-                markersOnMapMarkers.push(marker);
-            }
-        })
+// Add a marker to the map
+const addMarkerToMap = (feature, marker) => {
+    markersOnMapFeatures.push(feature);
+    markersOnMapMarkers.push(marker);
+};
 
-        // Add layer group to map
-        map.addLayer(leafletView);
-        leafletView.ProcessView();
+// Remove a marker from the map
+const removeMarkerFromMap = (feature, marker) => {
+    markersOnMapFeatures = markersOnMapFeatures.filter(item => item !== feature);
+    markersOnMapMarkers = markersOnMapMarkers.filter(item => item !== marker);
+    leafletView.RemoveMarkers([marker]);
+};
+
+// Add markers in initial slider range
+const addInitialMarkers = (markerData) => {
+    markerData.forEach(feature => {
+        if (feature.properties.startDate <= 1800 && feature.properties.endDate >= 1750) {
+            const marker = createMarker(feature);
+            addMarkerToMap(feature, marker);
+        }
     });
+};
+
+fetchMarkerData().then(data => {
+    // Store in array
+    markerData = data;
+
+    addInitialMarkers(markerData);
+
+    // Add layer group to map
+    map.addLayer(leafletView);
+    leafletView.ProcessView();
+});
 
 // Function to initialize range slider
 function initializeSlider() {
     const slider = document.getElementById('slider');
+
+    // If slider already initialized, destroy it
+    if (slider.noUiSlider) {
+        slider.noUiSlider.destroy();
+    }
+
     noUiSlider.create(slider, {
         start: [1750, 1800],
         connect: true,
@@ -86,6 +116,13 @@ function initializeSlider() {
         step: 1,
         format: { to: value => Math.round(value), from: value => value },
         range: { 'min': 1750, 'max': 2020 }
+    });
+
+    // Set title attribute for each slider handle
+    let sliderHandles = document.querySelectorAll('.noUi-handle-lower, .noUi-handle-upper');
+    sliderHandles.forEach((handle, index) => {
+        let handleName = index == 0 ? 'Lower' : 'Upper';
+        handle.setAttribute('title', `${handleName} slider control for adjusting markers on map`);
     });
 
     // Merge slider tooltips when overlapping
@@ -104,24 +141,19 @@ const filterMarkersByRange = (sliderStartYear, sliderEndYear) => {
         if (feature.properties.startDate <= sliderEndYear && feature.properties.endDate >= sliderStartYear) {
             // If not already on map, add to map
             if (!markersOnMapFeatures.includes(feature)) {
-                const marker = new PruneCluster.Marker(feature.geometry.coordinates[1], feature.geometry.coordinates[0]);
-                marker.data.properties = feature.properties;
-                leafletView.RegisterMarker(marker);
-                markersOnMapFeatures.push(feature);
-                markersOnMapMarkers.push(marker);
+                const marker = createMarker(feature);
+                addMarkerToMap(feature, marker);
             }
         } else {
             // Else if not in range and on map, remove from map
             if (markersOnMapFeatures.includes(feature)) {
-                markersOnMapFeatures = markersOnMapFeatures.filter(item => item !== feature);
                 const marker = markersOnMapMarkers.find(marker => marker.data.properties === feature.properties);
-                markersOnMapMarkers = markersOnMapMarkers.filter(item => item !== marker);
-                leafletView.RemoveMarkers([marker]);
+                removeMarkerFromMap(feature, marker);
             }
         }
-    })
+    });
     leafletView.ProcessView();
-}
+};
 
 // Add event listener for slider slide event
 slider.noUiSlider.on('slide', function(values) {
@@ -135,5 +167,5 @@ slider.noUiSlider.on('slide', function(values) {
 // Listen for window resize
 window.addEventListener('resize', function() {
     map.setMinZoom(calculateMinZoom());
-    mergeTooltips(document.getElementById('slider'), Math.floor(8600 / window.innerWidth), ' - ');
+    initializeSlider();
 });

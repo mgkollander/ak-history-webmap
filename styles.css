@@ -65,7 +65,7 @@ html, body {
 }
 
 .custom-cluster-icon {
-    background-image: url('data/icons/cluster.png');
+    background-image: url('static/cluster.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #28587B;

@@ -10,8 +10,7 @@ export const MAX_BOUNDS = [[46.56, -189.14], [73.15, -123.93]];
 export const INITIAL_COORDINATES = [64.793, -153.040];
 export const MAX_BOUNDS_VISCOSITY = 0.5;
 export const MAX_ZOOM = 8;
-export const TOPO_TILE_LAYER = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
-export const OSM_TILE_LAYER = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+export const DEFAULT_TILE_LAYER = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
 
 
 /* ---------- MARKER HANDLING ---------- */

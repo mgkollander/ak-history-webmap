@@ -61,7 +61,7 @@ const fetchGeoJson = async () => {
 // Set cluster size
 prune.Cluster.Size = CLUSTER_SIZE;
 
-// Marker configuration
+// Marker configuration (REMINDER TO MAKE CLASS FOR MARKERS)
 prune.PrepareLeafletMarker = (marker, data) => {
     marker.setIcon(L.icon({
         iconUrl: 'static/marker.png',
@@ -69,7 +69,30 @@ prune.PrepareLeafletMarker = (marker, data) => {
         iconAnchor: ICON_ANCHOR,
         popupAnchor: POPUP_ANCHOR
     }));
-    marker.bindPopup(`<b>${data.properties.startDate} - ${data.properties.endDate}</b><br>${data.properties.description}`);
+
+    let dateTitle = null;
+    if (data.properties.startDate == data.properties.endDate) {
+        dateTitle = data.properties.startDate;
+    }
+    else {
+        dateTitle = data.properties.startDate + ' - ' + data.properties.endDate;
+    }
+
+    let popupContent =  `<div style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 16px; text-align: center"><b style="font-size: 28px;">${dateTitle}</b><br><br>${data.properties.description}`
+    
+    if (data.properties.dataRef) {
+        popupContent += `<br><br><a href="${data.properties.dataRef}" target="_blank">→ learn more</a>`;
+    }
+
+    if (data.properties.imageUrl) {
+        popupContent += `<br><br><figure><img src="${data.properties.imageUrl}" style="width: 100%; height: auto;"></figure>`;
+        popupContent += `</div>`;
+    }
+    else {
+        popupContent += '</div><br>';
+    }
+
+    marker.bindPopup(popupContent);
 };
 
 // Cluster configuration

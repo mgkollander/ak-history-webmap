@@ -10,12 +10,15 @@ export const MAX_BOUNDS = [[46.56, -189.14], [73.15, -123.93]];
 export const INITIAL_COORDINATES = [64.793, -153.040];
 export const MAX_BOUNDS_VISCOSITY = 0.5;
 export const MAX_ZOOM = 8;
-export const DEFAULT_TILE_LAYER = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
+export const OTM_TILE_LAYER = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
+export const OSM_TILE_LAYER = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+export const ST_TILE_LAYER = 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.png';
+export const STB_TILE_LAYER = 'https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png';
 
 
 /* ---------- MARKER HANDLING ---------- */
 
-export const CLUSTER_SIZE = 150;
+export const CLUSTER_SIZE = 50;
 export const ICON_SIZE = [40, 40];
 export const ICON_ANCHOR = [3, 30];
 export const POPUP_ANCHOR = [17, -28];

@@ -1,5 +1,5 @@
 import { MIN_START_YEAR, INITIAL_END_YEAR, MAX_END_YEAR, TOOLTIPS_CONSTANT } from './constants.js';
-import { markerData, markersOnMapFeatures, markersOnMapMarkers, pruneCluster, createMarker, removeMarkerFromMap, addMarkerToMap } from './marker.js';
+import { markerData, markersOnMapFeatures, markersOnMapMarkers, prune, createMarker, removeMarkerFromMap, addMarkerToMap } from './marker.js';
 import { map, calculateMinZoom } from './map.js';
 import { mergeTooltips } from './mergeTooltips.js';
 
@@ -65,7 +65,7 @@ const filterMarkersByRange = (sliderStartYear, sliderEndYear) => {
             }
         }
     });
-    pruneCluster.ProcessView();
+    prune.ProcessView();
 };
 
 // Listen for window resize

@@ -6,12 +6,12 @@ export let markersOnMapFeatures = [];
 export let markersOnMapMarkers = [];
 
 // Create PruneCluster instance and layer group
-export const pruneCluster = new PruneClusterForLeaflet();
+export const prune = new PruneClusterForLeaflet();
 
 // Function to create new marker
 export const createMarker = (feature) => {
     const marker = new PruneCluster.Marker(feature.geometry.coordinates[1], feature.geometry.coordinates[0], { properties: feature.properties });
-    pruneCluster.RegisterMarker(marker);
+    prune.RegisterMarker(marker);
     return marker;
 };
 
@@ -25,7 +25,7 @@ export const addMarkerToMap = (feature, marker) => {
 export const removeMarkerFromMap = (feature, marker) => {
     markersOnMapFeatures = markersOnMapFeatures.filter(item => item !== feature);
     markersOnMapMarkers = markersOnMapMarkers.filter(item => item !== marker);
-    pruneCluster.RemoveMarkers([marker]);
+    prune.RemoveMarkers([marker]);
 };
 
 // Function to add markers in initial slider range to map
@@ -50,8 +50,8 @@ const fetchGeoJson = async () => {
         }
         markerData = data;
         addInitialMarkers(markerData);
-        map.addLayer(pruneCluster);
-        pruneCluster.ProcessView();
+        map.addLayer(prune);
+        prune.ProcessView();
     } catch (error) {
         console.error('Error fetching GeoJSON data:', error);
         window.alert('Error: Marker data was unable to be loaded. Please try again later.');
@@ -59,10 +59,10 @@ const fetchGeoJson = async () => {
 };
 
 // Set cluster size
-PruneCluster.Cluster.Size = CLUSTER_SIZE;
+prune.Cluster.Size = CLUSTER_SIZE;
 
 // Marker configuration
-pruneCluster.PrepareLeafletMarker = (marker, data) => {
+prune.PrepareLeafletMarker = (marker, data) => {
     marker.setIcon(L.icon({
         iconUrl: 'static/marker.png',
         iconSize: ICON_SIZE,
@@ -73,7 +73,7 @@ pruneCluster.PrepareLeafletMarker = (marker, data) => {
 };
 
 // Cluster configuration
-pruneCluster.BuildLeafletClusterIcon = (cluster) => {
+prune.BuildLeafletClusterIcon = (cluster) => {
     return L.divIcon({
         html: '<div class="cluster-icon">' + cluster.population + '</div>',
         className: 'custom-cluster-icon',

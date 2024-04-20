@@ -9,8 +9,8 @@ export let markersOnMapMarkers = [];
 export const prune = new PruneClusterForLeaflet();
 
 // Function to create new marker
-export const createMarker = (feature) => {
-    const marker = new PruneCluster.Marker(feature.geometry.coordinates[1], feature.geometry.coordinates[0], { properties: feature.properties });
+export const createMarker = ({ geometry: { coordinates }, properties }) => {
+    const marker = new PruneCluster.Marker(coordinates[1], coordinates[0], { properties });
     prune.RegisterMarker(marker);
     return marker;
 };
@@ -55,13 +55,14 @@ const fetchGeoJson = async () => {
     } catch (error) {
         console.error('Error fetching GeoJSON data:', error);
         window.alert('Error: Marker data was unable to be loaded. Please try again later.');
+        throw error;
     }
 };
 
 // Set cluster size
 prune.Cluster.Size = CLUSTER_SIZE;
 
-// Marker configuration (REMINDER TO MAKE CLASS FOR MARKERS)
+// Marker configuration
 prune.PrepareLeafletMarker = (marker, data) => {
     marker.setIcon(L.icon({
         iconUrl: 'static/marker.png',
@@ -70,27 +71,15 @@ prune.PrepareLeafletMarker = (marker, data) => {
         popupAnchor: POPUP_ANCHOR
     }));
 
-    let dateTitle = null;
-    if (data.properties.startDate == data.properties.endDate) {
-        dateTitle = data.properties.startDate;
-    }
-    else {
-        dateTitle = data.properties.startDate + ' - ' + data.properties.endDate;
-    }
+    let {startDate, endDate, description, dataRef, imageUrl} = data.properties;
+    let dateTitle = startDate == endDate ? startDate : `${startDate} - ${endDate}`;
 
-    let popupContent =  `<div style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 16px; text-align: center"><b style="font-size: 28px;">${dateTitle}</b><br><br>${data.properties.description}`
-    
-    if (data.properties.dataRef) {
-        popupContent += `<br><br><a href="${data.properties.dataRef}" target="_blank">→ learn more</a>`;
-    }
-
-    if (data.properties.imageUrl) {
-        popupContent += `<br><br><figure><img src="${data.properties.imageUrl}" style="width: 100%; height: auto;"></figure>`;
-        popupContent += `</div>`;
-    }
-    else {
-        popupContent += '</div><br>';
-    }
+    let popupContent =  `
+        <div class="popup-content">
+            <b class="date-title">${dateTitle}</b><br><br>${description}
+            ${dataRef ? `<br><br><a href="${dataRef}" target="_blank">→ learn more</a>` : ''}
+            ${imageUrl ? `<br><br><figure><img src="${imageUrl}" class="image-style"></figure></div>` : '</div><br>'}
+        `;
 
     marker.bindPopup(popupContent);
 };

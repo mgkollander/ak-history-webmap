@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "m1",
-        "description": "Unangax̂ people enslaved and colonized by Russian fur hunting companies. <br><br>\"The combination of warfare, disease and starvation wiped out entire villages, reducing the Unangan people to less than 20 percent of the precontact level.\" (Landgon, 2002:26)",
+        "description": "The Unangax̂ people are enslaved and colonized by Russian fur hunting companies. <br><br>\"The combination of warfare, disease and starvation wiped out entire villages, reducing the Unangan people to less than 20 percent of the precontact level\" (Landgon, 2002:26).",
         "startDate": 1750,
         "endDate": 1799,
         "dataRef": "https://aleutcorp.com/our-corporation/our-history/",
@@ -13,14 +13,14 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-159.29, 62.28]
+        "coordinates": [-160.49, 55.32]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "m2",
-        "description": "Spanish and French explorers briefly contact the Tlingit and Haida people of southeastern Alaska as they map out the coastline. <br><br>De Laguna (1972:277) states the early Spanish expeditions introduced smallpox in 1775.<br><br>Khlebnikov (1976:29) estimates smallpox arrived in 1770.",
+        "description": "Spanish and French explorers briefly contact the Tlingit and Haida people of southeastern Alaska as they map out the coastline. <br><br>De Laguna (1972:277) states the early Spanish expeditions introduced smallpox in 1775, while Khlebnikov (1976:29) estimates smallpox arrived in 1770.",
         "startDate": 1770,
         "endDate": 1779,
         "dataRef": "",
@@ -28,7 +28,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-156.29, 62.28]
+        "coordinates": [-133.85, 56.87]
       }
     },
     {
@@ -43,7 +43,52 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-164.29, 62.28]
+        "coordinates": [-202.62, 56.35]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m4",
+        "description": "A Spanish expedition brings smallpox to the Tlingit in Sitka.<br><br>Portlock (1789:270-273) observes that \"no person younger than 14 years bore the marks\".",
+        "startDate": 1775,
+        "endDate": 1775,
+        "dataRef": "",
+        "imageUrl": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-135.29, 57.21]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m5",
+        "description": "Upper Inlet Dena'ina oral history indicates a \"strange sickness\" struck their villages from Kenai to Point Possession in which people went to sleep and never woke up. (Fall, 1981:116)",
+        "startDate": 1780,
+        "endDate": 1789,
+        "dataRef": "",
+        "imageUrl": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-150.33, 60.33]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m6",
+        "description": "Dena'ina peoples in lower Kenai Peninsula, Iliamna area, and the Sugpiaq speaking people in the Prince William Sound area come into contact with the Russians as well as English expeditions of Captain Cook, Portlock, and Dixon as well as other European explorers.",
+        "startDate": 1790,
+        "endDate": 1799,
+        "dataRef": "",
+        "imageUrl": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-150.33, 60.33]
       }
     }
     

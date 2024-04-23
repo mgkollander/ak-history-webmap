@@ -68,7 +68,8 @@ prune.PrepareLeafletMarker = (marker, data) => {
         iconUrl: 'static/marker.png',
         iconSize: ICON_SIZE,
         iconAnchor: ICON_ANCHOR,
-        popupAnchor: POPUP_ANCHOR
+        popupAnchor: POPUP_ANCHOR,
+        keepInView: true
     }));
 
     let {startDate, endDate, description, dataRef, imageUrl} = data.properties;
@@ -78,10 +79,15 @@ prune.PrepareLeafletMarker = (marker, data) => {
         <div class="popup-content">
             <b class="date-title">${dateTitle}</b><br><br>${description}
             ${dataRef ? `<br><br><a href="${dataRef}" target="_blank">→ learn more</a>` : ''}
-            ${imageUrl ? `<br><br><figure><img src="${imageUrl}" class="image-style"></figure></div>` : '</div><br>'}
+            ${imageUrl ? `<br><figure><img src="${imageUrl}" class="image-style"></figure></div>` : '</div><br>'}
         `;
 
     marker.bindPopup(popupContent);
+
+    // Click event listener to focus on selected marker
+    marker.on('click', () => {
+        map.setView(marker.getLatLng(), map.getZoom(), { animate: true });
+    }); 
 };
 
 // Cluster configuration

@@ -28,7 +28,7 @@ export const map = L.map('map', mapConfig).setView(INITIAL_COORDINATES, calculat
 // Layer control
 L.control.layers({
     'Topological': mapConfig.layers[0],
-    'Cultural': createTileLayer(OSM_TILE_LAYER),
+    'Plain': createTileLayer(OSM_TILE_LAYER),
     //'Stamen Terrain': createTileLayer(ST_TILE_LAYER),
     //'Stamen Terrain Background': createTileLayer(STB_TILE_LAYER)
 }).addTo(map);

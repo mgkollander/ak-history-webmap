@@ -25,7 +25,7 @@ export const POPUP_ANCHOR = [17, -28];
 
 /* ---------- SLIDER HANDLING ---------- */
 
-export const INITIAL_END_YEAR = 2020;
+export const INITIAL_END_YEAR = 1800;
 export const MIN_START_YEAR = 1750;
 export const MAX_END_YEAR = 2020;
 export const TOOLTIPS_CONSTANT = 8600;

@@ -85,9 +85,9 @@ prune.PrepareLeafletMarker = (marker, data) => {
     marker.bindPopup(popupContent);
 
     // Click event listener to focus on selected marker
-    marker.on('click', () => {
-        map.setView(marker.getLatLng(), map.getZoom(), { animate: true });
-    }); 
+    //marker.on('click', () => {
+        //map.setView(marker.getLatLng(), map.getZoom(), { animate: true });
+    //}); 
 };
 
 // Cluster configuration

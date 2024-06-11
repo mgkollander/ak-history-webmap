@@ -3,6 +3,9 @@ import { markerData, markersOnMapFeatures, markersOnMapMarkers, prune, createMar
 import { map, calculateMinZoom } from './map.js';
 import { mergeTooltips } from './mergeTooltips.js';
 
+var sliderStartYear = MIN_START_YEAR;
+var sliderEndYear = MAX_END_YEAR;
+
 // Function to initialize range slider
 const initializeSlider = () => {
     const slider = document.getElementById('slider');
@@ -14,7 +17,7 @@ const initializeSlider = () => {
 
     // Create new slider
     noUiSlider.create(slider, {
-        start: [MIN_START_YEAR, INITIAL_END_YEAR],
+        start: [sliderStartYear, sliderEndYear],
         connect: true,
         tooltips: [true, true],
         step: 1,
@@ -35,8 +38,8 @@ const initializeSlider = () => {
     // Add event listener for slider slide event
     slider.noUiSlider.on('slide', function(values) {
         // Get current slider values
-        let sliderStartYear = parseInt(values[0]);
-        let sliderEndYear = parseInt(values[1]);
+        sliderStartYear = parseInt(values[0]);
+        sliderEndYear = parseInt(values[1]);
 
         filterMarkersByRange(sliderStartYear, sliderEndYear);
     });

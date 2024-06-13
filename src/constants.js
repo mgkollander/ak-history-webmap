@@ -20,8 +20,8 @@ export const STB_TILE_LAYER = ['https://tiles.stadiamaps.com/tiles/stamen_terrai
 
 export const CLUSTER_SIZE = 50;
 export const ICON_SIZE = [40, 40];
-export const ICON_ANCHOR = [3, 30];
-export const POPUP_ANCHOR = [17, -28];
+export const ICON_ANCHOR = [20, 20];
+export const POPUP_ANCHOR = [0, -12];
 
 /* ---------- SLIDER HANDLING ---------- */
 

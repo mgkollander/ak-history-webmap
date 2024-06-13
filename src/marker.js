@@ -62,6 +62,8 @@ const fetchGeoJson = async () => {
 // Set cluster size
 prune.Cluster.Size = CLUSTER_SIZE;
 
+var estimateCircle = null;
+
 // Marker configuration
 prune.PrepareLeafletMarker = (marker, data) => {
     marker.setIcon(L.icon({
@@ -84,10 +86,19 @@ prune.PrepareLeafletMarker = (marker, data) => {
 
     marker.bindPopup(popupContent);
 
+    // "show relevant region" idea
+    // markers have "region" attribute, boolean
+    // if true, marker will also have attributes giving details
+    // feed into a function that can turn details into a polygon
+    // display polygon on clicking a point, remove on some other trigger?
+
     // Click event listener to focus on selected marker
-    //marker.on('click', () => {
+    marker.on('click', () => {
         //map.setView(marker.getLatLng(), map.getZoom(), { animate: true });
-    //}); 
+        if(estimateCircle) estimateCircle.remove();
+        estimateCircle = L.circle(marker.getLatLng(), {radius: 20000});
+        estimateCircle.addTo(map);
+    }); 
 };
 
 // Cluster configuration

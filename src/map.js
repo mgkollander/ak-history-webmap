@@ -34,6 +34,16 @@ export const map = L.map('map', mapConfig).setView(INITIAL_COORDINATES, calculat
 // Add tile layers to map
 new L.Control.Layers(baseLayers).addTo(map);
 
+// test polygon
+/* var latlangs = [
+    [69.413930, -153.456444],
+    [66.239419, -145.031056],
+    [62.743706, -158.925556]
+];
+var polygon = L.polygon(latlangs, {color: 'red'});
+polygon.addTo(map) */
+
+
 // Fetch GeoJSON data when Language Boundaries layer selected
 map.on('baselayerchange', function (event) {
     if (event.name === 'Language Boundaries') {

@@ -92,6 +92,7 @@ prune.PrepareLeafletMarker = (marker, data) => {
     // feed into a function that can turn details into a polygon
     // display polygon on clicking a point, remove on some other trigger?
 
+    /*
     // Click event listener to focus on selected marker
     marker.on('click', () => {
         //map.setView(marker.getLatLng(), map.getZoom(), { animate: true });
@@ -99,6 +100,7 @@ prune.PrepareLeafletMarker = (marker, data) => {
         estimateCircle = L.circle(marker.getLatLng(), {radius: 20000});
         estimateCircle.addTo(map);
     }); 
+    */
 };
 
 // Cluster configuration

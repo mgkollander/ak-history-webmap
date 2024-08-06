@@ -70,21 +70,62 @@ prune.PrepareLeafletMarker = (marker, data) => {
         iconUrl: 'static/marker.png',
         iconSize: ICON_SIZE,
         iconAnchor: ICON_ANCHOR,
-        popupAnchor: POPUP_ANCHOR,
-        keepInView: true
+        popupAnchor: POPUP_ANCHOR
     }));
 
-    let {startDate, endDate, description, dataRef, imageUrl} = data.properties;
+    let {startDate, endDate, description, extLink, extLinkTxt, extLink2, extLink2Txt, extLink3, extLink3Txt, imageUrl, imageText} = data.properties;
     let dateTitle = startDate == endDate ? startDate : `${startDate} - ${endDate}`;
 
     let popupContent =  `
         <div class="popup-content">
             <b class="date-title">${dateTitle}</b><br><br>${description}
-            ${dataRef ? `<br><br><a href="${dataRef}" target="_blank">→ learn more</a>` : ''}
-            ${imageUrl ? `<br><figure><img src="${imageUrl}" class="image-style"></figure></div>` : '</div><br>'}
-        `;
+            ${extLink ? (extLink.includes("youtube.com") || extLink.includes("youtu.be") ?
+                `<br><br><iframe src="${extLink}" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` :
+                `<br><br><a href="${extLink}" target="_blank">→ ${extLinkTxt}</a>`) : ''}
+            ${extLink2 ? (extLink2.includes("youtube.com") || extLink2.includes("youtu.be") ?
+                `<br><br><iframe src="${extLink2}" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` :
+                `<br><br><a href="${extLink2}" target="_blank">→ ${extLink2Txt}</a>`) : ''}
+            ${extLink3 ? (extLink3.includes("youtube.com") || extLink3.includes("youtu.be") ?
+                `<br><br><iframe src="${extLink3}" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` :
+                `<br><br><a href="${extLink3}" target="_blank">→ ${extLink3Txt}</a>`) : ''}
+        </div>
+    `;
 
-    marker.bindPopup(popupContent);
+    let popup = L.popup({
+        autoPan: false,
+        keepInView: false,
+        maxHeight: 330,
+        maxWidth: 315
+    }).setContent(popupContent);
+
+    marker.bindPopup(popup);
+
+    // Below code fixes an issue with images ignoring 'maxHeight' when first opened -- weird solution but it works
+    marker.on('popupopen', () => {
+        if (imageUrl) {
+            let img = new Image();
+            img.src = imageUrl;
+            img.onload = () => {
+                let updatedContent = `
+                    <div class="popup-content">
+                        <b class="date-title">${dateTitle}</b><br><br>${description}
+                        ${extLink ? (extLink.includes("youtube.com") || extLink.includes("youtu.be") ?
+                            `<br><br><iframe src="${extLink}" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` :
+                            `<br><br><a href="${extLink}" target="_blank">→ ${extLinkTxt}</a>`) : ''}
+                        ${extLink2 ? (extLink2.includes("youtube.com") || extLink2.includes("youtu.be") ?
+                            `<br><br><iframe src="${extLink2}" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` :
+                            `<br><br><a href="${extLink2}" target="_blank">→ ${extLink2Txt}</a>`) : ''}
+                        ${extLink3 ? (extLink3.includes("youtube.com") || extLink3.includes("youtu.be") ?
+                            `<br><br><iframe src="${extLink3}" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` :
+                            `<br><br><a href="${extLink3}" target="_blank">→ ${extLink3Txt}</a>`) : ''}
+                        <br><br><figure><img src="${imageUrl}" class="image-style"></figure>
+                        ${imageText ? `<div style="font-size: 12px;">${imageText}</div>` : ''}
+                    </div>
+                `;
+                popup.setContent(updatedContent);
+            };
+        }
+    });
 
     // "show relevant region" idea
     // markers have "region" attribute, boolean

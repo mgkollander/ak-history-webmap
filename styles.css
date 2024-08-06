@@ -89,7 +89,7 @@ html, body {
 .popup-content {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
-    text-align: justify-all;
+    text-align: left;
 }
 
 .date-title {
@@ -98,5 +98,4 @@ html, body {
 
 .image-style {
     width: 100%;
-    height: auto;
 }

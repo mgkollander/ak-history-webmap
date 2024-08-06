@@ -8,8 +8,10 @@
         "description": "The Unangax̂ people are enslaved and colonized by Russian fur hunting companies.<br><br>\"The combination of warfare, disease, and starvation wiped out entire villages, reducing the Unangan people to less than 20 percent of the pre-contact level\" (Langdon, 2002:26).",
         "startDate": 1750,
         "endDate": 1799,
-        "dataRef": "https://aleutcorp.com/our-corporation/our-history/",
-        "imageUrl": ""
+        "extLink": "https://aleutcorp.com/our-corporation/our-history/",
+        "extLinkTxt": "Learn more about Unangax̂ history",
+        "imageUrl": "https://www.kcaw.org/wp-content/uploads/2016/03/Neva_in_Sitka.jpg?x10343",
+        "imageText": "\"Pulled With Uncommon Strength Neva Crosses Sitka Sound, 28 Sept. 1804, Mark R. Meyers\""
       },
       "geometry": {
         "type": "Point",
@@ -23,8 +25,10 @@
         "description": "Spanish and French explorers briefly contact the Tlingit and Haida people of southeastern Alaska as they map out the coastline.<br><br>De Laguna (1972:277) states the early Spanish expeditions introduced smallpox in 1775, while Khlebnikov (1976:29) estimates smallpox arrived in 1770.",
         "startDate": 1770,
         "endDate": 1779,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://wikipedia.org/wiki/Juan_Francisco_de_la_Bodega_y_Quadra",
+        "extLinkTxt": "Learn more about the 1775 Spanish coastal expedition",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Juan_Francisco_de_la_Bodega_y_Quadra.jpg",
+        "imageText": "Juan Francisco de la Bodega y Quadra, a Spanish Criollo naval officer that explored the coast of Alaska up to Sitka in 1775."
       },
       "geometry": {
         "type": "Point",
@@ -38,8 +42,7 @@
         "description": "Russians close all ports in Kamchatka to control a smallpox epidemic. (Black, 1980:96)",
         "startDate": 1770,
         "endDate": 1770,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.youtube.com/embed/JEYh5WACqEk?si=4HyAOC8oUFI5aXdf"
       },
       "geometry": {
         "type": "Point",
@@ -53,8 +56,8 @@
         "description": "A Spanish expedition brings smallpox to the Tlingit in Sitka.<br><br>Portlock (1789:270-273) observes that \"no person younger than 14 years bore the marks\".",
         "startDate": 1775,
         "endDate": 1775,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.mountsinai.org/health-library/diseases-conditions/smallpox",
+        "extLinkTxt": "Learn more about smallpox"
       },
       "geometry": {
         "type": "Point",
@@ -68,8 +71,11 @@
         "description": "Russians come into contact with Dena'ina people of the lower Kenai Peninsula and Lake Iliamna areas.₁<br><br>In 1796, Father Iuvenalii/Juvenal, a Russian Orthodox priest attempts to convert the Dena'ina of the Iliamna area and is killed.₂<br><br>₁ <small>The Dena'ina are not enslaved, although the Russians establish a few trade areas in the Cook Inlet and Kenai Peninsula areas. Skirmises and hostilities with the Dena'ina prevent the Russians from maintaining a stronghold in the lower Kenai Peninsula.</small><br>₂ <small>Hieromonk Iuvenalii/Juvenal baptized people of Kodiak, as well as Nuchek and Kenai. In 1796, he came to Lake Iliamna. He was taking children from this region to be educated in Kodiak, and the Iliamna people killed him. (Veniaminov, 1984:235)</small>",
         "startDate": 1780,
         "endDate": 1790,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://denaina.anchoragemuseum.org/index.html",
+        "extLinkTxt": "Learn more about the history and culture of the Dena'ina Athabascan people",
+        "extLink2": "https://www.oca.org/saints/lives/2020/09/24/102714-martyr-juvenal-of-alaska",
+        "extLink2Txt": "Learn more about Saint Juvenal",
+        "extLink3": "https://www.youtube.com/embed/XgT4TlMbwtk?si=RMxD_oFNcF6MFxwB"
       },
       "geometry": {
         "type": "Point",
@@ -80,11 +86,11 @@
       "type": "Feature",
       "properties": {
         "name": "m6",
-        "description": "Russians invade Kodiak Island. The Sugpiaq/Alutiiq resist, but within a short period of time experience the brunt of Russian colonization.₁<br><br>₁ <small>The Awa'uq or ‘Refuge Rock’, on the shore of Sitkalidak Island, part of Kodiak Island archipelago is where hundreds of Alutiiq villagers were held under siege and massacred by Grigorii Shelikhov and his men in August, 1784. (Black 1992, 2004)</small>",
+        "description": "Russians invade Kodiak Island. The Sugpiaq/Alutiiq resist, but within a short period of time experience the brunt of Russian colonization.₁<br><br>₁ <small>The Awa'uq or 'Refuge Rock', on the shore of Sitkalidak Island, part of Kodiak Island archipelago is where hundreds of Alutiiq villagers were held under siege and massacred by Grigorii Shelikhov and his men in August, 1784. (Black 1992, 2004)</small>",
         "startDate": 1784,
         "endDate": 1784,
-        "dataRef": "https://alutiiqmuseum.org/collection/index.php/Detail/word/419",
-        "imageUrl": ""
+        "extLink": "https://alutiiqmuseum.org/collection/index.php/Detail/word/419",
+        "extLinkTxt": "Learn more about Alutiiq refuge rocks"
       },
       "geometry": {
         "type": "Point",
@@ -97,9 +103,7 @@
         "name": "m7",
         "description": "Upper Inlet Dena'ina oral history indicates a \"strange sickness\" struck their villages from Kenai to Point Possession in which people went to sleep and never woke up. (Fall, 1981:116)",
         "startDate": 1780,
-        "endDate": 1789,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1789
       },
       "geometry": {
         "type": "Point",
@@ -112,13 +116,11 @@
         "name": "m8",
         "description": "Unangax̂ and Alutiiq people in Unalaska and Sitkanak Island experience a respiratory epidemic. (Merk, 1980:177)<br><br>\"We were informed that the greater part of the inhabitants of Sithanak had been victims to illness shortly after we left the island in 1790\" (Sauer, 1802:272).₁<br><br>₁ <small>Sauer and Merck were on the same expedition.</small>",
         "startDate": 1791,
-        "endDate": 1791,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1791
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-158.94,56.40]
+        "coordinates": [-154.19,56.55]
       }
     },
     {
@@ -128,8 +130,7 @@
         "description": "Dena'ina peoples in lower Kenai Peninsula, Iliamna area, and the Sugpiaq speaking people in the Prince William Sound area come into contact with the Russians as well as English expeditions of Captain Cook, Portlock, and Dixon as well as other European explorers.",
         "startDate": 1790,
         "endDate": 1799,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.youtube.com/embed/f4yyD1XlSng?si=MMXvy6oE0fU0vbPz"
       },
       "geometry": {
         "type": "Point",
@@ -142,9 +143,7 @@
         "name": "m10",
         "description": "Portlock (1789:270-273) notes evidence of smallpox among the Tlingit, probably introduced by a 1775 Spanish expedition.",
         "startDate": 1797,
-        "endDate": 1797,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1797
       },
       "geometry": {
         "type": "Point",
@@ -158,8 +157,9 @@
         "description": "The syphilis epidemic reaches its peak in Unalaska, Aleutian Islands, and Kodiak Island.<br><br>\"At that time there were whole families, and even villages, from the oldest to the youngest, marked by the dreadful disease.\" (Petroff, 1884:151)",
         "startDate": 1798,
         "endDate": 1798,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://nationalhumanitiescenter.org/pds/amerbegin/settlement/text4/RussianKodiak.pdf",
+        "extLinkTxt": "Read \"Russians' Instructions, Kodiak Island, 1784, 1796\"",
+        "extLink2": "https://www.youtube.com/embed/FuRnW0K4bOY?si=mpYXDoX_z86htxrv&amp;start=212"
       },
       "geometry": {
         "type": "Point",
@@ -173,8 +173,7 @@
         "description": "The Tlingit village of Yakutat experiences some type of flu, also striking Kodiak and the Cook Inlet village of Kenai.<br><br>\"In June 1799 Baranov stopped at Yakutat, where he found the people in the throes of a severe outbreak of disease...A similar epidemic, he had learned, was raging around Kenai, where there had also been many deaths (Khlebnikov, 1973:26). Kodiak and its surrounding islands were affected that year as well (Lltke, 1987:72).\" (Pierce, 1996:204)",
         "startDate": 1799,
         "endDate": 1799,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.youtube.com/embed/pze-BCgiFn8?si=TdDBWMpCZntzBAIb"
       },
       "geometry": {
         "type": "Point",
@@ -187,9 +186,7 @@
         "name": "m13",
         "description": "A Russian ship carries a contagious fever to Atka causing death and food shortages.<br><br>\"...in the previous year the galiot Aleksandr Nevskii was dispatched; enroute it lost 15 men with some kind of contagious fever which had broken out while they were still in Okhotsk. It wintered on the island of Atkha where it transmitted the disease to the inhabitants, who were decimated by it.\" (Davydov, 1977:105)",
         "startDate": 1802,
-        "endDate": 1802,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1802
       },
       "geometry": {
         "type": "Point",
@@ -200,11 +197,11 @@
       "type": "Feature",
       "properties": {
         "name": "m14",
-        "description": "An American ship <i>O'Caine</i> brings a respiratory contagion to Kodiak which kills many of the local shamans.₁ The ship had a group of Sugpiaq captive hunters who had been sea otter hunting in California. The <i>O'Caine</i> was returning the hunters to the Russian American Company post on Kodiak.<br><br>₁ <small>\"I could discover nothing in detail about their shamanism because many of the older shamans died during the epidemic which raged on Kadiak in 1804 and others had gone into hiding. During my stay at Igatsk village one shaman pretended that he had lost his tongue as the result of fear brought on by a terrible dream.\" (Ianovskii in Pierce, 1978:136) \"It was impossible for me to find out about shamanism in detail, as many of the old shamans had died during the epidemic that visited Kadiak in June 1804, and others concealed from me. During my stay at Igatsk settlement, one shaman feigned that he lost his speech from fright of his dreams.\" (Gray, 1925:100)</small><br>",
+        "description": "An American ship <i>O'Caine</i> brings a respiratory contagion to Kodiak which kills many of the local shamans.₁ The ship had a group of Sugpiaq captive hunters who had been sea otter hunting in California. The <i>O'Caine</i> was returning the hunters to the Russian American Company post on Kodiak.<br><br>₁ <small>\"I could discover nothing in detail about their shamanism because many of the older shamans died during the epidemic which raged on Kadiak in 1804 and others had gone into hiding. During my stay at Igatsk village one shaman pretended that he had lost his tongue as the result of fear brought on by a terrible dream.\" (Ianovskii in Pierce, 1978:136) \"It was impossible for me to find out about shamanism in detail, as many of the old shamans had died during the epidemic that visited Kadiak in June 1804, and others concealed from me. During my stay at Igatsk settlement, one shaman feigned that he lost his speech from fright of his dreams.\" (Gray, 1925:100)</small>",
         "startDate": 1804,
         "endDate": 1804,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.litsitealaska.org/index.cfm?section=digital-archives&page=People-of-the-North&cat=Native-Lives-and-Traditions&viewpost=2&ContentId=2565",
+        "extLinkTxt": "Learn more about shamanism in Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -217,9 +214,7 @@
         "name": "m15",
         "description": "Atka and Unalaska on the Aleutian Islands are subject to a contagious fever causing many deaths. A Russian ship brought it to Unalaska causing over 350 deaths, and then spread to Atka the following year with disastrous consequences. (Black, 1984:97)",
         "startDate": 1806,
-        "endDate": 1807,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1807
       },
       "geometry": {
         "type": "Point",
@@ -232,9 +227,7 @@
         "name": "m16",
         "description": "An epidemic occurs on Kodiak. (Gibson, 1976:47)",
         "startDate": 1806,
-        "endDate": 1806,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1806
       },
       "geometry": {
         "type": "Point",
@@ -244,12 +237,26 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m17",
+        "description": "Khlebnikov (1973:104) documents a \"contagious rotting fever that swept through the colonies...causing many deaths.\" (Fortuine, 1992:205)",
+        "startDate": 1806,
+        "endDate": 1824,
+        "extLink": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-147.33, 60.97]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m18",
         "description": "Epidemics of dysentery (\"flux\" or \"Bloody Fever\") start in Unalaska and spread through settlements of the Russian American Company.<br><br>\"...a very large number of men and young women died. But it was observed that this disease hardly affected the old women at all.\" (Veniaminov, 1984:257)<br><br>An American ship wrecks on Sanak Island and introduces a \"bloody flux\". (Ibid.) (Petroff 1884:151)₁ This affects Kodiak as well. (Gibson, 1976:47)<br><br>₁ <small>\"In 1808, the ship <i>Sv. Petr i Sv. Pavel</i>, under skipper Pyshenkov, called at Atka. Excited by the news of the vessel's arrival, people assembled from far and wide in Korovin Bay, including Rat Islanders who were brought to Atka by Lazarev from Amchitka about 1790-1800 in order to \"rest\" Amchitka sea otter grounds. The ship brought to Atka the epidemic which caused the large death toll at Unalaska the previous year. So many died that it was impossible to bury the dead properly\". (Black,1980:100)</small>",
         "startDate": 1807,
         "endDate": 1808,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://glennfay.medium.com/the-horrors-of-the-endemic-bloody-flux-dysentery-in-the-1800s-9e9a772d343b",
+        "extLinkTxt": "Learn more about dysentery in the 1800s"
       },
       "geometry": {
         "type": "Point",
@@ -260,11 +267,9 @@
       "type": "Feature",
       "properties": {
         "name": "m19",
-        "description": "Sitka residents experience a respiratory illness carried by the Finlandia; the disease spreads to Kodiak and surrounding islands that fall. The local Kodiak Russian Orthodox Priest, Father Herman, ministers to the sick and dying and later builds an orphanage for all the young children whose parents had died.<br><br>General Manager Ianovskii wrote: \"During my stay on the island of Kadiak there was brought there a contagious fatal epidemic disease, or plague. …the sickness quickly spread throughout the whole settlement and soon crossed to all the nearby islands The energetic elder Father German ceaselessly, tirelessly and at great personal risk visited the sick not sparing himself in his role as priest …\" (Ionovskii in Pierce, 1978:83-84). Ionovskii and his family even became ill and stated so many died they could not be buried (Gray, 1925:58). He visited one of the large houses, which had nearly 100 people - most sick and dying.<br><br>One-third of the entire population of the region died within a few days (Pierce, 1978:84). Fortuine's research indicates that it was either a virulent form of influenza or measles. (1989:201)",
+        "description": "Sitka residents experience a respiratory illness carried by the <i>Finlandia</i>; the disease spreads to Kodiak and surrounding islands that fall. The local Kodiak Russian Orthodox Priest, Father Herman, ministers to the sick and dying and later builds an orphanage for all the young children whose parents had died.<br><br>General Manager Ianovskii wrote: \"During my stay on the island of Kadiak there was brought there a contagious fatal epidemic disease, or plague. …the sickness quickly spread throughout the whole settlement and soon crossed to all the nearby islands The energetic elder Father German ceaselessly, tirelessly and at great personal risk visited the sick not sparing himself in his role as priest …\" (Ionovskii in Pierce, 1978:83-84). Ionovskii and his family even became ill and stated so many died they could not be buried (Gray, 1925:58). He visited one of the large houses, which had nearly 100 people - most sick and dying.<br><br>One-third of the entire population of the region died within a few days (Pierce, 1978:84). Fortuine's research indicates that it was either a virulent form of influenza or measles. (1989:201)",
         "startDate": 1819,
-        "endDate": 1819,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1819
       },
       "geometry": {
         "type": "Point",
@@ -275,11 +280,11 @@
       "type": "Feature",
       "properties": {
         "name": "m20",
-        "description": "A typhoid epidemic occurs in the Yakutat area. (De Laguna, 1972:277)<br>",
+        "description": "A typhoid epidemic occurs in the Yakutat area. (De Laguna, 1972:277)",
         "startDate": 1819,
         "endDate": 1819,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.who.int/news-room/fact-sheets/detail/typhoid#:~:text=Persons%20with%20typhoid%20fever%20carry,serious%20complications%20or%20even%20death.",
+        "extLinkTxt": "Learn more about typhoid fever"
       },
       "geometry": {
         "type": "Point",
@@ -292,9 +297,7 @@
         "name": "m21",
         "description": "Yup'ik and Deg X'inag, Koyukuk, and Holikichuk Dene peoples come into contact with the Russians via the trade post at the Nushagak River, Norton Sound, Kuskokwim and Yukon River areas.",
         "startDate": 1820,
-        "endDate": 1849,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1849
       },
       "geometry": {
         "type": "Point",
@@ -308,8 +311,8 @@
         "description": "Captain Beechey, a British explorer, lands in Utqiaġvik (Barrow) and spends a brief period of time among the Iñupiaq. Beechy also comes into contact with the Iñupiaq of the Kotzebue Sound area. (Beechy, 1831)",
         "startDate": 1826,
         "endDate": 1826,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.jpf.go.jp/e/about/jfic/lib/archive/information/2019/pdf/1912mini_e.pdf",
+        "extLinkTxt": "\"Frederick William Beechey Narrative of a voyage to the Pacific and Beering's Strait\""
       },
       "geometry": {
         "type": "Point",
@@ -322,9 +325,7 @@
         "name": "m23",
         "description": "Kodiak has some type of respiratory epidemic; over 150 Alutiiq die. (Fortuine, 1989:201)",
         "startDate": 1827,
-        "endDate": 1828,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1828
       },
       "geometry": {
         "type": "Point",
@@ -337,9 +338,7 @@
         "name": "m24",
         "description": "The Island of Unga reports a respiratory illness that spreads to the Alaska Peninsula; the same illness reportedly strikes Atka, Rat and Amlia Island. According to Petroff (1884:151), the epidemic begins in Unga and travels to the Alaska Peninsula in the fall, and continues through the spring. Thirty die, mostly youths and healthy men; children, the elderly, and women unaffected.<br><br>\"It carried off more than 30 persons, for the most part young and healthy men. Children, old men and, in general, all women, it bypassed. The greatest mortality was on Unga.\" (Veniaminov, 1984:258)",
         "startDate": 1830,
-        "endDate": 1831,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1831
       },
       "geometry": {
         "type": "Point",
@@ -353,8 +352,12 @@
         "description": "New Archangel/Sitka faces typhoid, meningitis, diphtheria, and whooping cough that affect the children of the settlement. (Fortuine, 1992:205)",
         "startDate": 1830,
         "endDate": 1839,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.who.int/news-room/fact-sheets/detail/meningitis#:~:text=Overview,%2C%20viruses%2C%20fungi%20and%20parasites.",
+        "extLinkTxt": "Learn more about meningitis",
+        "extLink2": "https://emedicine.medscape.com/article/782051-overview?form=fpf",
+        "extLink2Txt": "Learn more about diphtheria",
+        "extLink3": "https://www.cdc.gov/pertussis/about/index.html",
+        "extLink3Txt": "Learn more about whooping cough / pertussis"
       },
       "geometry": {
         "type": "Point",
@@ -365,11 +368,9 @@
       "type": "Feature",
       "properties": {
         "name": "m26",
-        "description": "Nushagak river region has an unknown illness that strikes the area.<br><br>\"The first reported epidemic in the Nushagak River region occurred sometime prior to 1832 when it was mentioned in a report sent by F.P. Wrangell to the main office of the Russian-American Company in St. Petersburg. There was no mention of the number of dead, but it was said to have been ‘considerable’\"(Van Stone, 1967:99).",
+        "description": "Nushagak river region has an unknown illness that strikes the area.<br><br>\"The first reported epidemic in the Nushagak River region occurred sometime prior to 1832 when it was mentioned in a report sent by F.P. Wrangell to the main office of the Russian-American Company in St. Petersburg. There was no mention of the number of dead, but it was said to have been 'considerable'\"(Van Stone, 1967:99).",
         "startDate": 1832,
-        "endDate": 1832,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1832
       },
       "geometry": {
         "type": "Point",
@@ -382,9 +383,7 @@
         "name": "m27",
         "description": "The Great Smallpox epidemic arrives and spreads from British Columbia. It strikes the Haida and Tlingit, and continues to travel west and north to all Russian and coastal communities with tremendous numbers of casualties recorded. The Tlingit settlements in Yakutat and Dry Bay are completely decimated. Estimates indicate that 4,000 out of a population of 10,000 Tlingit die. (De Laguna, 1972:177, 277-279)<br><br>According to Petroff (1881:83), fifty percent of the overall Alaska Native population succumbed to the epidemic. 100 of the 161 Aleut captive hunters and creoles stationed in Sitka died.",
         "startDate": 1835,
-        "endDate": 1835,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1835
       },
       "geometry": {
         "type": "Point",
@@ -397,9 +396,7 @@
         "name": "m28",
         "description": "Smallpox hits the Dena'ina people of the Cook Inlet and Iliamna area, causing fifty percent of the population to die. According to Fedeorova's research, the epidemic sweeps through the Cook Inlet region in 1838 and the impact is cataclysmic. (Fall, 1981:118)",
         "startDate": 1836,
-        "endDate": 1838,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1838
       },
       "geometry": {
         "type": "Point",
@@ -412,9 +409,7 @@
         "name": "m29",
         "description": "Smallpox arrives in Kodiak. The Russian American Company's attempts to vaccinate are sporadic and too late, and tragically results in 265 deaths by October. By spring, 736 die - one-third of the Kodiak population. (Sarafian, 1977:48)<br><br>\"...it was a smallpox outbreak and many Aleuts [Alutiiq] died so that only a few children were left in some settlements. When this came to the notice of the colonial authorities, who acted in collaboration with the archpriest Petr Litvintsev (he was at that time priest on Kadiak), out of 20 villages some 7 were created….\" (Gedeon in Pierce, 1978:106)",
         "startDate": 1837,
-        "endDate": 1837,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1837
       },
       "geometry": {
         "type": "Point",
@@ -427,9 +422,7 @@
         "name": "m30",
         "description": "Explorer Thomas Simpson reaches Utqiaġvik (Barrow) and witnesses an immense graveyard that has many \"fresh\" bodies, perhaps a result of the smallpox epidemic. (Simpson, 1843:153-154)",
         "startDate": 1837,
-        "endDate": 1837,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1837
       },
       "geometry": {
         "type": "Point",
@@ -442,9 +435,7 @@
         "name": "m31",
         "description": "Smallpox decimates the Nushagak, Lower Yukon, and Kuskokwim river regions. Fatalities among the Yup'ik and Dene are fifty percent or greater. Nulato is devastated (Zagoskin, 1967:147,188,193).₁ Reportedly two-thirds of the Deg X'inag community die in the epidemic. (Van Stone, 1979:60)<br><br>₁ <small>Zagoskin states that Malakov was assigned to Nulato during the smallpox epidemic. \"He reached Nulato on March 28th, 1839. There he found the smallpox epidemic at its height In his presence the old man Unillu buried two wives and three sons, and as he felt his own end approaching put fire to the village Kazhim and two houses, in the third he was overcome by the smoke...In the spring the starving dogs ate the bodies of their dead masters\" (Zagoskin 1967:147)</small>",
         "startDate": 1838,
-        "endDate": 1839,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1839
       },
       "geometry": {
         "type": "Point",
@@ -457,9 +448,7 @@
         "name": "m32",
         "description": "Lower Kuskokwim Yup'ik destroy the Russian post at Ikogkmiut in spring of 1839 as a result of the smallpox epidemic, which they know was brought by the Russians. (Van Stone, 1959:39; Arndt, 1996:45-46)",
         "startDate": 1838,
-        "endDate": 1839,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1839
       },
       "geometry": {
         "type": "Point",
@@ -472,9 +461,7 @@
         "name": "m33",
         "description": "Many die of smallpox in Norton Sound. (Zagoskin, 1967:100)",
         "startDate": 1838,
-        "endDate": 1839,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1839
       },
       "geometry": {
         "type": "Point",
@@ -487,9 +474,7 @@
         "name": "m34",
         "description": "Due to the population losses during the smallpox epidemic and to maintain greater control over the population (Tikhmenev, 1978:200), the Russian American Company forces the surviving Kodiak Sugpiaq, living in 65 villages, to move to seven sites. They also relocate 9 of the villages in the Unalaska district.<br><br>According to Bancroft (1859:563), the Russian American Company did this to better serve the survivors, however, \"..it met with violent opposition on the part of the natives.\"",
         "startDate": 1840,
-        "endDate": 1840,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1840
       },
       "geometry": {
         "type": "Point",
@@ -503,9 +488,7 @@
         "name": "m35",
         "description": "Streptococcal sore throat or diphtheria affects children in New Archangel/Sitka, and is followed by a series of epidemics that last to 1844. (Fortuine, 1989:206)",
         "startDate": 1841,
-        "endDate": 1841,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1841
       },
       "geometry": {
         "type": "Point",
@@ -518,9 +501,7 @@
         "name": "m36",
         "description": "Zagoskin reports a contagion in the Koyukon village of Nulato.<br><br>\"They brought a sick woman to be cared for by the manager of the post and said that people were dying along the Yunnaka [Koyukuk] River…The same report was confirmed by the shaman from Khulikata who was living with us\" (Zagoskin, 1967:145-146).",
         "startDate": 1842,
-        "endDate": 1842,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1842
       },
       "geometry": {
         "type": "Point",
@@ -533,9 +514,7 @@
         "name": "m37",
         "description": "Some type of respiratory epidemic hits Sitka, resulting in an extremely high mortality rate. (Fortuine, 1992:202)",
         "startDate": 1843,
-        "endDate": 1843,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1843
       },
       "geometry": {
         "type": "Point",
@@ -548,9 +527,7 @@
         "name": "m38",
         "description": "Southeastern Alaska has an epidemic of mumps.<br><br>\"Dr. Romanovskii has left a vivid account of an epidemic of mumps that raged in southeastern…Nearly every Indian, Aleut, and Creole was stricken…\" (Fortuine, 1992:206).",
         "startDate": 1843,
-        "endDate": 1844,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1844
       },
       "geometry": {
         "type": "Point",
@@ -563,9 +540,7 @@
         "name": "m39",
         "description": "A smallpox outbreak spreads throughout the Aleutian Islands.",
         "startDate": 1843,
-        "endDate": 1844,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1844
       },
       "geometry": {
         "type": "Point",
@@ -578,9 +553,7 @@
         "name": "m40",
         "description": "In New Archangel/Sitka, \"Dr. Romanovskii described a cycle of epidemics in 1843-44, beginning with children's diarrhea in the summer, respiratory and gastrointestinal diseases in the fall, and followed by pneumonia and pleurisy in the winter months…\" (Fortuine, 19992:206).",
         "startDate": 1843,
-        "endDate": 1844,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1844
       },
       "geometry": {
         "type": "Point",
@@ -593,9 +566,7 @@
         "name": "m41",
         "description": "Fort Kolmakov on the Kuskokwim river reports catarrhal fever. (Zagoskin, 1967:241,255)",
         "startDate": 1844,
-        "endDate": 1844,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1844
       },
       "geometry": {
         "type": "Point",
@@ -608,9 +579,7 @@
         "name": "m42",
         "description": "Russian American Company manager Etholen consolidates the people of the Atka and Unalaska area, as well as the people of Kodiak.<br><br>The Kodiak Alutiiq lived in sixty-five settlements, \"from which they had been leading a nomadic life over all of Kad'iak and the surrounding islands, were consolidated into seven settlements…\" (Tikhmenev, 1978:200).",
         "startDate": 1844,
-        "endDate": 1844,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1844
       },
       "geometry": {
         "type": "Point",
@@ -623,9 +592,7 @@
         "name": "m43",
         "description": "An outbreak of whooping cough/pertussis affect the children at Sitka. (Fortuine, 1992:202)",
         "startDate": 1845,
-        "endDate": 1845,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1845
       },
       "geometry": {
         "type": "Point",
@@ -638,9 +605,7 @@
         "name": "m44",
         "description": "Dene peoples in the western interior region begin to trade with Americans and Canadians with the establishment of Fort Yukon by the Hudsons Bay Company.",
         "startDate": 1847,
-        "endDate": 1847,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1847
       },
       "geometry": {
         "type": "Point",
@@ -654,8 +619,8 @@
         "description": "Stikine River district reports measles which then spreads to Sitka and later to Unalaska, then Unga and the Alaska Peninsula.",
         "startDate": 1847,
         "endDate": 1848,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.cdc.gov/measles/about/index.html",
+        "extLinkTxt": "Learn more about measles"
       },
       "geometry": {
         "type": "Point",
@@ -668,9 +633,7 @@
         "name": "m46",
         "description": "New Archangel/Sitka reports an epidemic of “blephorablenorrhoea” in children, along with gastric fever and tonsillitis. (Fortuine, 1989:206)",
         "startDate": 1847,
-        "endDate": 1848,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1848
       },
       "geometry": {
         "type": "Point",
@@ -683,13 +646,11 @@
         "name": "m47",
         "description": "Ikogmiut (Russian Mission) in the Lower Yukon area has an outbreak of influenza which spreads to other villages. St. Michaels reports a coughing disease (pertussis or whooping cough) which spreads quickly to all Native villages, documented by Father Netsvetov (1984:99) and Fortuine (1992: 209).",
         "startDate": 1848,
-        "endDate": 1848,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1848
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-163.811,62.361]
+        "coordinates": [-161.32,61.77]
       }
     },
     {
@@ -698,9 +659,7 @@
         "name": "m48",
         "description": "A measles epidemic starts in the Aleutian Islands and spreads to southeastern Alaska. (De Laguna, 1972:177)",
         "startDate": 1848,
-        "endDate": 1848,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1848
       },
       "geometry": {
         "type": "Point",
@@ -713,9 +672,7 @@
         "name": "m49",
         "description": "A typhoid epidemic begins in the Yakutat area. (De Laguna 1972:277)",
         "startDate": 1848,
-        "endDate": 1848,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1848
       },
       "geometry": {
         "type": "Point",
@@ -728,9 +685,7 @@
         "name": "m50",
         "description": "Coastal Inupiaq on the Seward Peninsula and North Slope region and Siberian Yupik people come into a long period of contact with American 'Yankee' Whalers. The whaling ships need ports to obtain fresh water, food and other supplies; the whalers take massive numbers of bowhead, beluga whale, and walrus, and also unwittingly bring various diseases and famine.",
         "startDate": 1848,
-        "endDate": 1880,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1880
       },
       "geometry": {
         "type": "Point",
@@ -743,9 +698,7 @@
         "name": "m51",
         "description": "An influenze-like illness is reported at Port Clarence near present-day Nome.",
         "startDate": 1850,
-        "endDate": 1850,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1850
       },
       "geometry": {
         "type": "Point",
@@ -758,13 +711,11 @@
         "name": "m52",
         "description": "Ikogmiut (Russian Mission), a Yup'ik village along the Kuskokwim, experiences an epidemic - possibly influenza.",
         "startDate": 1850,
-        "endDate": 1850,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1850
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-155.082,64.848]
+        "coordinates": [-161.32,61.77]
       }
     },
     {
@@ -773,9 +724,7 @@
         "name": "m53",
         "description": "Utqiaġvik (Barrow) experiences an influenza epidemic brought by a search party of British ships looking for the Sir John Franklin expedition. (Fortuine, 1992:209)",
         "startDate": 1851,
-        "endDate": 1852,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1852
       },
       "geometry": {
         "type": "Point",
@@ -788,9 +737,7 @@
         "name": "m54",
         "description": "After the arrival of a ship, St. Michael's experiences a severe respiratory epidemic which spreads to all local villages traveling up the Yukon River to Ikogmiut in spring. By fall, it spreads to the Kuskokwim river communities. (Fortuine, 1992:210)",
         "startDate": 1851,
-        "endDate": 1851,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1851
       },
       "geometry": {
         "type": "Point",
@@ -804,8 +751,8 @@
         "description": "Sitka has a pneumonia epidemic which spreads to Kodiak and the Bristol Bay area. (Fortuine, 1992:202-203)",
         "startDate": 1852,
         "endDate": 1852,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.nhlbi.nih.gov/health/pneumonia",
+        "extLinkTxt": "Learn more about pneumonia"
       },
       "geometry": {
         "type": "Point",
@@ -818,9 +765,7 @@
         "name": "m56",
         "description": "The <i>Plover</i>, a British ship in search of the lost Franklin expedition, spends two winters in Utqiaġvik (Barrow); the ship's doctor, John Simpson, does an extensive study of the Inupiaq and learns Inupiatun. (Bockstoce, 1988, 2:501-550)",
         "startDate": 1852,
-        "endDate": 1854,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1854
       },
       "geometry": {
         "type": "Point",
@@ -831,11 +776,9 @@
       "type": "Feature",
       "properties": {
         "name": "m57",
-        "description": "Sitka had an epidemic of typhoid fever.",
+        "description": "Sitka has an epidemic of typhoid fever.",
         "startDate": 1853,
-        "endDate": 1853,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1853
       },
       "geometry": {
         "type": "Point",
@@ -848,9 +791,7 @@
         "name": "m58",
         "description": "The Alaska Peninsula region including Naknek has an epidemic of some type of respiratory illness which becomes a recurring problem for the next decade, resulting in over 300 deaths.<br><br>\"The villages of the Lake Naknek region of the Alaska Peninsula suffered severe epidemics of cough and stabbing pains…causing 163 and 116 deaths respectively. Smaller epidemics occurred in 1859 and 1860.\" (Fortuine, 1992:203)",
         "startDate": 1853,
-        "endDate": 1860,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1860
       },
       "geometry": {
         "type": "Point",
@@ -863,9 +804,7 @@
         "name": "m59",
         "description": "A typhoid epidemic hits the Yakutat area. (De Laguna 1972:277)",
         "startDate": 1855,
-        "endDate": 1855,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1855
       },
       "geometry": {
         "type": "Point",
@@ -878,9 +817,7 @@
         "name": "m60",
         "description": "The entire Yukon River as far as Nulato reports a respiratory outbreak; by late fall, it spreads to the Kuskokwim river communities causing the deaths of many children. (Fortuine, 1992:210)",
         "startDate": 1859,
-        "endDate": 1859,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1859
       },
       "geometry": {
         "type": "Point",
@@ -893,9 +830,7 @@
         "name": "m61",
         "description": "Bristol Bay experiences some type of epidemic. (Fortuine, 1992:213)",
         "startDate": 1859,
-        "endDate": 1860,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1860
       },
       "geometry": {
         "type": "Point",
@@ -905,12 +840,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m62",
+        "description": "Russian colonies report and outbreak of measles. (Fortuine, 1992:203)",
+        "startDate": 1860,
+        "endDate": 1860
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-164.05,62.50]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m63",
         "description": "The Point Hope Inupiaq village experiences epidemics of measles, flu, venereal diseases and alcohol brought by Yankee Whaling ships.",
         "startDate": 1860,
-        "endDate": 1869,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1869
       },
       "geometry": {
         "type": "Point",
@@ -924,8 +870,8 @@
         "description": "British Columbia has a major smallpox epidemic which spreads to southeastern Alaska, affecting the Haida and Tlingit. (Fortuine, 1989:238; De Laguna,1972:177-178)",
         "startDate": 1862,
         "endDate": 1862,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://web.uvic.ca/vv/student/smallpox/overview/index.html",
+        "extLinkTxt": "Read more about The Smallpox Epidemic of 1862"
       },
       "geometry": {
         "type": "Point",
@@ -938,9 +884,7 @@
         "name": "m65",
         "description": "Sitka has outbreaks of influenza. (Fortuine, 1992:203)",
         "startDate": 1862,
-        "endDate": 1863,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1863
       },
       "geometry": {
         "type": "Point",
@@ -950,12 +894,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m66",
+        "description": "Ikogmiut (Russian Mission) has some type of respiratory epidemic. (Fortuine, 1992:210)",
+        "startDate": 1862,
+        "endDate": 1862
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-161.32,61.77]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m67",
         "description": "Population decline is reported among the Dena'ina, possibly from smallpox.",
         "startDate": 1862,
-        "endDate": 1862,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1862
       },
       "geometry": {
         "type": "Point",
@@ -969,8 +924,8 @@
         "description": "A scarlet fever epidemic hits the Ahtna (Dall, 1970:101). Dall notes that there were many abandoned villages.",
         "startDate": 1862,
         "endDate": 1862,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.ncbi.nlm.nih.gov/books/NBK507889/",
+        "extLinkTxt": "Read more about scarlet fever"
       },
       "geometry": {
         "type": "Point",
@@ -983,9 +938,7 @@
         "name": "m69",
         "description": "An influenza epidemic strikes Atka in which 55 Unangax̂ succumb, as well as Priest Lavrentii Salamotov. (Black, 1984:105)",
         "startDate": 1863,
-        "endDate": 1864,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1864
       },
       "geometry": {
         "type": "Point",
@@ -998,9 +951,7 @@
         "name": "m70",
         "description": "Kodiak Island reports scarlet fever. (Fortuine, 1992:207)",
         "startDate": 1865,
-        "endDate": 1865,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1865
       },
       "geometry": {
         "type": "Point",
@@ -1013,9 +964,7 @@
         "name": "m71",
         "description": "A scarlet fever epidemic among the Gwich'in Dene spreads to other villages. Hudson's Bay Company traders inadvertently spread the disease as they travel from the Mackenzie district to Fort Yukon.<br><br>\"By mid February of 1866, the fever had claimed its last victims at the post and among the Natives with whom Fort Yukon maintained winter contact….at least 170 Natives of both sexes and all ages had died; 48 \"Youcon Indians\" (Yukon Flats/Birch Creek Kutchin), 19 Black River Kutchin, 33 Chandalar Kutchin, 22 \"gens de Millieu: (the \"Middle Indians,\" downriver of Birch Creek), 26 \"Rat Indians\" (most likely Crow Flats Kutchin), and 22 Han…\" (Arndt, 1996 163).₁<br><br>₁ <small>Kutchin is the older term for Gwich'in.</small>",
         "startDate": 1865,
-        "endDate": 1866,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1866
       },
       "geometry": {
         "type": "Point",
@@ -1028,9 +977,7 @@
         "name": "m72",
         "description": "Copper River Dene experience an epidemic - perhaps the scarlet fever. It \"..was reported to have killed many in February of 1866.\" (Arndt, 1996:163)",
         "startDate": 1866,
-        "endDate": 1866,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1866
       },
       "geometry": {
         "type": "Point",
@@ -1040,12 +987,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m73",
+        "description": "Ikogmiut (Russian Mission) residents suffer from a respiratory epidemic. (Fortuine, 1992:210)",
+        "startDate": 1867,
+        "endDate": 1868
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-161.32,61.77]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m74",
         "description": "Nulato, a Koyukon Village, reports a pleurisy and bronchitis epidemic which causes many deaths.<br><br>\"Beginning in October 1867, Dall (1870:162,193) reported an outbreak of pleurisy and bronchitis at Nulato causing many deaths. One old shaman tried to stir up trouble locally by blaming the illness on the sorceries of the Russians.\" (Fortuine, 1992:210)",
         "startDate": 1867,
         "endDate": 1868,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.nhlbi.nih.gov/health/bronchitis#:~:text=Bronchitis%20is%20a%20condition%20that,infection%2C%20and%20may%20be%20contagious.",
+        "extLinkTxt": "Learn more about bronchitis"
       },
       "geometry": {
         "type": "Point",
@@ -1058,9 +1018,7 @@
         "name": "m75",
         "description": "Kodiak Island has an outbreak of mumps. (Fortuine, 1992:207)",
         "startDate": 1868,
-        "endDate": 1868,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1868
       },
       "geometry": {
         "type": "Point",
@@ -1073,9 +1031,7 @@
         "name": "m76",
         "description": "The Chugach people of Prince William Sound experience an outbreak of measles which spreads to the Eyak and Ahtna Indians in the Copper River area. (Fortuine, 1992:207)",
         "startDate": 1868,
-        "endDate": 1868,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1868
       },
       "geometry": {
         "type": "Point",
@@ -1088,9 +1044,7 @@
         "name": "m77",
         "description": "Kodiak has an outbreak of pneumonia. (Fortuine, 1992:203)",
         "startDate": 1870,
-        "endDate": 1870,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1870
       },
       "geometry": {
         "type": "Point",
@@ -1103,9 +1057,7 @@
         "name": "m78",
         "description": "The Chugach people of Prince William Sound and Sugpiaq of Kodiak island report a measles epidemic, causing high mortality and spreading to the Eyak and Ahtna villages in the Copper River area.<br><br>\"...some 515 Kodiak Natives and Creoles died in the epidemic…\" (Fortuine, 1992:207).",
         "startDate": 1874,
-        "endDate": 1875,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1875
       },
       "geometry": {
         "type": "Point",
@@ -1118,9 +1070,7 @@
         "name": "m79",
         "description": "St. Lawrence Island reports of a mass starvation in which two-thirds of the entire population die. (Hooper, 1880/1964:10-11; Crowell and Oozevaseuk, 2006:1-19)",
         "startDate": 1879,
-        "endDate": 1880,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1880
       },
       "geometry": {
         "type": "Point",
@@ -1133,9 +1083,7 @@
         "name": "m80",
         "description": "The gold rush period begins in Auke-kwaan Tlingit territory as Joe Juneau and Richard Harris discover gold. This leads to the relocation of the Auke-kwan and the establishment of Juneau. It brings in disease, lawlessness and prostitution.",
         "startDate": 1880,
-        "endDate": 1880,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1880
       },
       "geometry": {
         "type": "Point",
@@ -1148,9 +1096,7 @@
         "name": "m81",
         "description": "Kenai, Ninilchik and Seldovia have a influenza epidemic \"...that carried off nearly all the children under two years (Nikita in University of Alaska, 1936-1938, 1:357).\" (Fortuine, 1992:204)",
         "startDate": 1881,
-        "endDate": 1881,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1881
       },
       "geometry": {
         "type": "Point",
@@ -1163,9 +1109,7 @@
         "name": "m82",
         "description": "An Iliamna priest reports a severe pneumonia epidemic among the Native people. (Fortuine, 1992:203)",
         "startDate": 1881,
-        "endDate": 1881,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1881
       },
       "geometry": {
         "type": "Point",
@@ -1178,9 +1122,7 @@
         "name": "m83",
         "description": "Unalaska residents suffer from a respiratory epidemic that is documented by the cutter ship Corwin. The contagion spreads to St. Paul, Unga, Kodiak, as well as the Cook Inlet and Prince William sound areas; people died in great numbers.<br><br>\"The epidemic struck persons of all ages, but the case fatality was especially high in the aged. Death often came only three or four days after the first symptoms had made their appearance.\" (Fortuine, 1992:203)",
         "startDate": 1881,
-        "endDate": 1881,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1881
       },
       "geometry": {
         "type": "Point",
@@ -1190,12 +1132,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m84",
+        "description": "Southeastern Alaska has reports of a severe epidemic of the \"black measles\" which causes deaths among the Indian and mixed Native/Anglo population. (Fortuine, 1992:207)",
+        "startDate": 1882,
+        "endDate": 1882
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-133.039,56.00]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m85",
         "description": "A respiratory epidemic in villages along the Yukon are reported in Tanana (Brooks, 1899:493); Deg X'itan reports a severe epidemic of respiratory illness characterized by heavy cough and loss of voice. Two months later, \"…the same disease among the people of Eratlewik, on the north shore of Norton Sound.\" (Fortuine, 1994:210-211,214)",
         "startDate": 1882,
-        "endDate": 1882,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1882
       },
       "geometry": {
         "type": "Point",
@@ -1208,9 +1161,7 @@
         "name": "m86",
         "description": "Dene people on the Yukon River from Nulato to Nuchalawoyya experience an epidemic of an unknown coughing disease. (Turck, 1992:56)",
         "startDate": 1882,
-        "endDate": 1883,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1883
       },
       "geometry": {
         "type": "Point",
@@ -1223,9 +1174,7 @@
         "name": "m87",
         "description": "Lieutenant Schwatka notes that many Deg X'inag villages suffer high mortality, probably related to the epidemics that affected other Yukon River villages.<br><br>\"Last winter there was a severe epidemic of some throat disease, presumably diphtheria as well as could be ascertained from different descriptions. This completely desolated some families, and was particularly fatal among the young members. All along the river numerous and recent graves were seen, often as if inclosing the bodies of whole families.\" (Schwatka, 1885:99-100)",
         "startDate": 1882,
-        "endDate": 1882,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1882
       },
       "geometry": {
         "type": "Point",
@@ -1238,9 +1187,7 @@
         "name": "m88",
         "description": "A severe epidemic strikes the Koyukon Athabascans in the winter, killing many of them. (Allen 1887:140)",
         "startDate": 1882,
-        "endDate": 1883,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1883
       },
       "geometry": {
         "type": "Point",
@@ -1253,9 +1200,7 @@
         "name": "m89",
         "description": "Villages in the Lake Naknek region experience virulent respiratory diseases including pneumonia over successive years. There are 31 deaths in 1882, 23 deaths in 1883, 27 deaths between 1887 and 1888, and 58 deaths in 1889. (Fortuine, 1992:203)",
         "startDate": 1882,
-        "endDate": 1882,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1882
       },
       "geometry": {
         "type": "Point",
@@ -1268,9 +1213,7 @@
         "name": "m90",
         "description": "Nelson Island Yup'ik suffer from an epidemic that leaves most of the village people dead.",
         "startDate": 1883,
-        "endDate": 1883,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1883
       },
       "geometry": {
         "type": "Point",
@@ -1283,9 +1226,7 @@
         "name": "m91",
         "description": "An unknown disease raveges the Koyukon. (Fortuine, 1992:214)",
         "startDate": 1883,
-        "endDate": 1883,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1883
       },
       "geometry": {
         "type": "Point",
@@ -1295,12 +1236,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m92",
+        "description": "An unknown epidemic kills half the population of Rosbouski on the Yukon. (Fortuine, 1992:214)",
+        "startDate": 1883,
+        "endDate": 1884
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-164.77,62.55]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m93",
         "description": "An influenza epidemic hits Kenai, Ninilchik, Seldovia, and Alexandrovsky; most children under 2 years of age die. (Report of Hiermonk Nikita of Kenai 5/28/1884 in Townsend, 1974:13)",
         "startDate": 1884,
-        "endDate": 1884,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1884
       },
       "geometry": {
         "type": "Point",
@@ -1313,9 +1265,7 @@
         "name": "m94",
         "description": "Reports state that in the northwest coast of Alaska near Cape Thompson, an entire Inupiaq village is abandoned due to widespread death followed by starvation due to hunters being too sick to hunt. (Brower, 1994:37)",
         "startDate": 1885,
-        "endDate": 1885,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1885
       },
       "geometry": {
         "type": "Point",
@@ -1328,9 +1278,7 @@
         "name": "m95",
         "description": "Yup'ik, Siberian Yupik, and Inupiaq villages report famine due to shortages of marine mammals (whale and walrus) which are over harvested by commercial Yankee Whale. (Bocstoce, 1986:136-142)",
         "startDate": 1870,
-        "endDate": 1910,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1910
       },
       "geometry": {
         "type": "Point",
@@ -1344,8 +1292,8 @@
         "description": "An outbreak of whooping cough and chickenpox occurs in Bethel in the Y/K Delta. (Fortuine, 1992:188)",
         "startDate": 1886,
         "endDate": 1886,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.cdc.gov/chickenpox/about/index.html",
+        "extLinkTxt": "Learn more about chickenpox"
       },
       "geometry": {
         "type": "Point",
@@ -1358,9 +1306,7 @@
         "name": "m97",
         "description": "An epidemic of pulmonary disease hits the Nushagak area. (Van Stone, 1967:101)",
         "startDate": 1886,
-        "endDate": 1886,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1886
       },
       "geometry": {
         "type": "Point",
@@ -1373,9 +1319,7 @@
         "name": "m98",
         "description": "Belkofsky and Shumagin Islands experience some type of epidemic with a \"heavy rate of mortality\", which spread to Bristol Bay and the Kenai Peninsula. (Swineford, A.P, 1887:34)",
         "startDate": 1887,
-        "endDate": 1887,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1887
       },
       "geometry": {
         "type": "Point",
@@ -1388,9 +1332,7 @@
         "name": "m99",
         "description": "The Yukon area around Tanana experiences an unknown epidemic where a large number die. (Swineford, A.P. 1887:47)",
         "startDate": 1887,
-        "endDate": 1887,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1887
       },
       "geometry": {
         "type": "Point",
@@ -1403,9 +1345,7 @@
         "name": "m100",
         "description": "Unalaska has an influenza outbreak.",
         "startDate": 1888,
-        "endDate": 1888,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1888
       },
       "geometry": {
         "type": "Point",
@@ -1418,9 +1358,7 @@
         "name": "m101",
         "description": "A pneumonia epidemic emerges on the Yukon and spreads to the Kuskokwi, causing twenty-two deaths around Bethel. (Fortuine, 1992:212)",
         "startDate": 1888,
-        "endDate": 1888,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1888
       },
       "geometry": {
         "type": "Point",
@@ -1433,9 +1371,7 @@
         "name": "m102",
         "description": "Togiak, a Bristol Bay village, has an outbreak of a respiratory illness that causes many deaths; probably pneumonia. (Fortuine, 1992:212)",
         "startDate": 1888,
-        "endDate": 1890,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1890
       },
       "geometry": {
         "type": "Point",
@@ -1448,9 +1384,7 @@
         "name": "m103",
         "description": "A pneumonia outbreak hits the Yukon/Kuskokwim region. (Fortuine, 1992:188)",
         "startDate": 1889,
-        "endDate": 1889,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1889
       },
       "geometry": {
         "type": "Point",
@@ -1463,9 +1397,7 @@
         "name": "m104",
         "description": "The Kuskokwim River Yup'ik communities have an influenza epidemic; people are too sick to hunt that fall and winter, causing food shortages and starvation. (Fortuine, 1992:212)",
         "startDate": 1890,
-        "endDate": 1890,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1890
       },
       "geometry": {
         "type": "Point",
@@ -1478,9 +1410,7 @@
         "name": "m105",
         "description": "Wales, the western most village on the Seward Peninsula, experiences an epidemic brought by passing ships. The medical missionary, Dr. Driggs, works tirelessly to no avail. (Fortuine, 1989:211-212)",
         "startDate": 1890,
-        "endDate": 1890,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1890
       },
       "geometry": {
         "type": "Point",
@@ -1493,9 +1423,7 @@
         "name": "m106",
         "description": "The Tlingit villages of Hoonah and Sitka report an outbreak of influenza or the grippe. (Emmons and De Laguna, 1991:19)",
         "startDate": 1892,
-        "endDate": 1892,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1892
       },
       "geometry": {
         "type": "Point",
@@ -1505,12 +1433,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m107",
+        "description": "Rosbouski, a village along the lower Yukon, loses half of its population. The disease in unknown, but is perhaps related to the influenza epidemic that hit the Kuskokwim.₁<br><br>₁ <small>\"Rosbouski was at one time the largest village on the Yukon, but 6 or 7 years earlier an epidemic prevailed in the town carrying off fully one-half of the population. The large graveyard at the rear of the place attests to the mortal energy of the plague\" (Wells, 1975:111).</small>",
+        "startDate": 1893,
+        "endDate": 1894
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-164.77,62.55]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m108",
         "description": "The Inupiaq village of Point Hope has an epidemic of bronchial pneumonia, brought by a visiting whaling ship. This causes one-sixth of the entire village to die. The people become too sick to take care of the dead, and corpses are left unburied. (Fortuine, 1989:211)",
         "startDate": 1894,
-        "endDate": 1894,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1894
       },
       "geometry": {
         "type": "Point",
@@ -1523,9 +1462,7 @@
         "name": "m109",
         "description": "Bethel has a whooping cough or pertussis outbreak that claims dozens of children. (Fortuine, 1989:212)",
         "startDate": 1895,
-        "endDate": 1895,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1895
       },
       "geometry": {
         "type": "Point",
@@ -1538,9 +1475,7 @@
         "name": "m110",
         "description": "Bethel has an influenza epidemic that causes about 50 deaths.<br><br>\"That same month the disease appeared at Tununak, probably brought by the crew of the Bear, which had returned north to relieve the stranded whalers at Barrow…some of the guides for the overland expedition were sick with the disease and apparently carried the epidemic through the whole lower Yukon.\" (Fortuine, 1989:212)",
         "startDate": 1897,
-        "endDate": 1897,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1897
       },
       "geometry": {
         "type": "Point",
@@ -1553,9 +1488,7 @@
         "name": "m111",
         "description": "The gold rush era brings in thousands of outsiders. The Inupiaq in the Seward Peninsula area (Nome) in 1899 attracts over 30,000 miners in just one season. Fairbanks and Juneau are established and named due to the gold mines in these regions. The Lower Kenai also has a gold rush.<br><br>The gold seekers carry new diseases and deplete the food sources of the local indigenous inhabitants. Diseases such as typhoid result from the severe overcrowding. (Fortuine, 1989:177-178)",
         "startDate": 1890,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1568,9 +1501,7 @@
         "name": "m112",
         "description": "King Island (Inupiaq) reports that influenza has killed eleven people, which was brought by an American ship. (Fortuine, 1992:212)",
         "startDate": 1897,
-        "endDate": 1897,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1897
       },
       "geometry": {
         "type": "Point",
@@ -1583,9 +1514,7 @@
         "name": "m113",
         "description": "Gwich'in people experience an outbreak of scarlet fever brought by gold seekers. (Fortuine, 1992:214)",
         "startDate": 1897,
-        "endDate": 1897,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1897
       },
       "geometry": {
         "type": "Point",
@@ -1598,9 +1527,7 @@
         "name": "m114",
         "description": "The gold rush in Dyea and Skagway bring typhoid and other illnesses due to thousands of gold seekers. (Fortuine, 1989:172-773)",
         "startDate": 1897,
-        "endDate": 1898,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1898
       },
       "geometry": {
         "type": "Point",
@@ -1613,9 +1540,7 @@
         "name": "m115",
         "description": "St. Lawrence Island experiences an influenza and/or pneumonia outbreak. (Fortuine, 1992:212)",
         "startDate": 1898,
-        "endDate": 1898,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1898
       },
       "geometry": {
         "type": "Point",
@@ -1629,8 +1554,8 @@
         "description": "Deg X'inag people experience a measles and mumps epidemic; the survivors abandon their village of Bonasila. (De Laguna 2000:283)",
         "startDate": 1898,
         "endDate": 1898,
-        "dataRef": "",
-        "imageUrl": ""
+        "extLink": "https://www.cdc.gov/mumps/about/index.html#:~:text=Key%20points,vaccine%2C%20especially%20before%20travelling%20internationally.",
+        "extLinkTxt": "Learn more about mumps"
       },
       "geometry": {
         "type": "Point",
@@ -1643,9 +1568,7 @@
         "name": "m117",
         "description": "The village of Karluk on Kodiak Island has an unidentified epidemic that kills over 36 individuals. In the spring, twenty-four individuals die at Kodiak from an illness similar to cholera. (Fortuine, 1992:208)",
         "startDate": 1898,
-        "endDate": 1898,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1898
       },
       "geometry": {
         "type": "Point",
@@ -1658,9 +1581,7 @@
         "name": "m118",
         "description": "Utqiaġvik (Barrow) has an outbreak of influenza and bronchitis. (Fortuine, 1992:212)",
         "startDate": 1898,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1673,9 +1594,7 @@
         "name": "m119",
         "description": "Lower Yukon Deg X'itan villages experience multiple epidemics.<br><br>\"There were two minor epidemics of measles and one of mumps during the winter of 1898-1899 and then severe epidemics of measles, whooping cough, and particularly influenza in 1900-1901. At Anvik, where 20 persons died in 1900, the mortality was less than in other villages, although 27 more died in the summer of 1901. There were no deaths in the school, but all the children were ill. In August, 1900 the steamer Nunivak stopped at Grayling where 65 Indians were camped, most of them were suffering either from measles or influenza, or both…These epidemics of combined illnesses were far more serious at Holy Cross where 65 persons, nearly 50 per cent of the population, died.\" (Van Stone, 1979:224)",
         "startDate": 1898,
-        "endDate": 1901,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1901
       },
       "geometry": {
         "type": "Point",
@@ -1688,9 +1607,7 @@
         "name": "m120",
         "description": "The Inupiaq village of Wales experiences an epidemic of influenza in the spring, and nineteen hunters die. (Fortuine, 1992:212)",
         "startDate": 1899,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1703,9 +1620,7 @@
         "name": "m121",
         "description": "Utqiaġvik (Barrow) has a trading feast with their inland Nunamiut cousins. An American whaling ship makes an appearance and starts an epidemic of influenza. Over two hundred Nunamiut die before they make it back to their interior villages. (Fortuine, 1992:212-213)",
         "startDate": 1899,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1718,9 +1633,7 @@
         "name": "m122",
         "description": "Anvik, a Deg X'itan village on the Yukon, has two influenza epidemics; so many people become ill that they can't fish, resulting in an extreme shortage of food. (Chapman and Sabine 1899:572 in Fortuine, 1992:213)",
         "startDate": 1899,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1733,9 +1646,7 @@
         "name": "m123",
         "description": "Bristol Bay along the Nushagak River, \"around the old Russian post at Nushagak, the Russian Orthodox church records listed 111 deaths in 1899, four times the usual number.\" (Fortuine, 1992: 213)",
         "startDate": 1899,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1748,9 +1659,7 @@
         "name": "m124",
         "description": "Carmel, a Moravian Mission in the Yukon/Kuskokwim Delta, reports that all children under the age of two have died. (Fortuine, 1992:213)",
         "startDate": 1899,
-        "endDate": 1899,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1899
       },
       "geometry": {
         "type": "Point",
@@ -1763,9 +1672,7 @@
         "name": "m125",
         "description": "Hundreds of goldseekers converge on the Yukon River. Cantwell (1904:280-281) reports 46 steamers, 10 tugs, and 46 barges.<br><br>\"The epidemics of 1898-1900 were said to have moved from village to village on the steamboats…Although the number of dead in the lower Yukon villages was considerable, of equal significance was the weakened condition of those who survived. In the summers of 1899 and 1900 very little fishing was done and as a result famine threatened for two winters.\" (Van Stone, 1979:225)",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1778,9 +1685,7 @@
         "name": "m126",
         "description": "The \"Great Sickness\" arrives in two waves - a combination of measles and influenza which spread throughout western Alaska like wildfire, followed by measles and other secondary infections. All villages from Atka to Point Hope, and all villages on the Lower Yukon and Kuskokwim rivers are subject to this devastating epidemic that is still remembered today by the few survivors and their children. Among the Yup'ik, it is remembered as yuut tupupallratni or the 'Great Death'. (Napoleon, 1991:10)",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1793,9 +1698,7 @@
         "name": "m127",
         "description": "An epidemic hits St. Paul and delays the fur seal harvest. \"Near all Aleuts were affected.\" (Fortuine, 1989:215)",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1808,9 +1711,7 @@
         "name": "m128",
         "description": "Measles strikes the village of Gambell on St. Lawrence Island, and 100% of the population is ill. This is followed by an influenza epidemic (Fortuine, 1989:217).<br><br>The Measles originated in the Russian Far East or Siberia and spread to Alaska. (Wolfe, 1982:96)",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1823,9 +1724,7 @@
         "name": "m129",
         "description": "Measles appears on St. Paul in August, and 100% of the population is infected. (Fortuine, 1989:217)",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1838,9 +1737,7 @@
         "name": "m130",
         "description": "A measles/influenza epidemic hits St. Michaels and the Seward Peninsula in June.",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1853,9 +1750,7 @@
         "name": "m131",
         "description": "Influenza reaches Point Hope. \"...the Eskimos were dying everywhere, and many were close to starvation..\" (Fortuine, 1992:185).",
         "startDate": 1900,
-        "endDate": 1900,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1900
       },
       "geometry": {
         "type": "Point",
@@ -1868,9 +1763,7 @@
         "name": "m132",
         "description": "An epidemic of measles hits Utqiaġvik (Barrow), and over 100 die. The epidemic spreads to other north slope villages such as Point Hope (Wolfe, 1982:96). According to Brower, 126 die.<br><br>\"Early in September, 1902, one of the Pacific Steam Whaling Company's steamers, westward bound from Herschel Island, came in to land a sick Eskimo woman. If the skipper knew what ailed her he was mighty careful not to tell anybody. He just dumped her on the beach and sailed away…she died within two days. It wasn't long before the Eskimos began getting sick.\" (Brower, 1994:232)₁<br><br>₁ <small>Brower's memoir recounts the heartbreak, as the measles struck his family and his wife and one of his children died.</small>",
         "startDate": 1902,
-        "endDate": 1902,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1902
       },
       "geometry": {
         "type": "Point",
@@ -1883,9 +1776,7 @@
         "name": "m133",
         "description": "A diphtheria and whooping cough epidemic occurs among the Deg X'inag of the Anvik-Shageluk area. Fort Yukon also experiences a diphtheria epidemic which spreads to other surrounding villages. (Van Stone, 1979:225)",
         "startDate": 1904,
-        "endDate": 1904,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1904
       },
       "geometry": {
         "type": "Point",
@@ -1898,9 +1789,7 @@
         "name": "m134",
         "description": "A diphtheria epidemic sweeps the Chandalar River villages, including Venetie. (Van Stone, 1979:225)",
         "startDate": 1905,
-        "endDate": 1905,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1905
       },
       "geometry": {
         "type": "Point",
@@ -1910,12 +1799,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m135",
+        "description": "A diphtheria epidemic sweeps the coastal areas of Alaska, affecting Yup'ik people.",
+        "startDate": 1906,
+        "endDate": 1906
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-162.49,59.88]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m136",
         "description": "Tanana Chiefs meet with territorial Governor James Wickersham. Chief Alexander requests medical aid. \"Every year little children die and there is no one to make them better.\" (Alexander, Chief letter to Judge James Wickersham, 9/11/1910)",
-        "startDate": 1910,
-        "endDate": 1910,
-        "dataRef": "",
-        "imageUrl": ""
+        "startDate": 1915,
+        "endDate": 1915,
+        "imageUrl": "https://vilda.alaska.edu/digital/api/singleitem/image/cdmg21/529/default.jpg",
+        "imageText": "\"Council held at Fairbanks, Alaska, July 5th & 6th, 1915.\" The Tanana Chiefs Conference, the first conference of Native land rights."
       },
       "geometry": {
         "type": "Point",
@@ -1928,9 +1830,7 @@
         "name": "m137",
         "description": "A smallpox epidemic occurs in Dawson and Fort Yukon. The Episcopal Church gives inoculations and tries to prevent the spread of the epidemic. (Simeone, 1982:98)",
         "startDate": 1911,
-        "endDate": 1911,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1911
       },
       "geometry": {
         "type": "Point",
@@ -1940,12 +1840,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m138",
+        "description": "Holy Cross establishes a small hospital.",
+        "startDate": 1911,
+        "endDate": 1911
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-159.78,62.196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m139",
-        "description": "The Episcopal Church introduces TB treatment at it's Fort Yukon hospital.",
+        "description": "The Episcopal Church introduces TB treatment at its Fort Yukon hospital.",
         "startDate": 1916,
-        "endDate": 1916,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1916
       },
       "geometry": {
         "type": "Point",
@@ -1955,12 +1866,53 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m140",
+        "description": "The Spanish Influenza Pandemic impacts both Native and non-Native peoples. The death tolls are particularly high among the Iñupiaq, Dene/Athabascan and Yup'ik peoples resulting in mortality rates of 50% or more in some villages.",
+        "startDate": 1917,
+        "endDate": 1918,
+        "imageUrl": "https://vilda.alaska.edu/digital/api/singleitem/image/cdmg21/24169/default.jpg",
+        "imageText": "\"Native orphans at Nushagak, AK.\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-158.49,58.94]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m141",
+        "description": "Influenza continues to ravage Alaska.",
+        "startDate": 1919,
+        "endDate": 1919
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-160.10,61.20]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m142",
+        "description": "Tuberculosis rages uncontrolled throughout Alaska affecting over one-quarter of the population; close to 90% of the population is infected with the TB germ.",
+        "startDate": 1900,
+        "endDate": 1979,
+        "extLink": "https://www.who.int/health-topics/tuberculosis#tab=tab_1",
+        "extLinkTxt": "Learn more about tuberculosis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.43,64.34]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m143",
         "description": "The diphtheria epidemic among children leads to a relay of dog teams from Nenana to Nome to get the anti-toxin, known as the 1925 Serum Run to Nome.",
         "startDate": 1925,
-        "endDate": 1925,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1925
       },
       "geometry": {
         "type": "Point",
@@ -1973,9 +1925,7 @@
         "name": "m144",
         "description": "An influenza epidemic in the lower Yukon affects Yup'ik villages Tupicuar and Putukulek, near Pilot Station and Pitkas Point. (Pratt, 2021:7-11)₁<br><br>₁ <small>\"By late winter the flu had grown to epidemic proportions. Individuals who were uninfected and still capable of traveling were afraid of contracting the flu, so most stayed put in their villages.\" (Pratt, 2021:8). They say not many people hunted that spring [ca. 1926] because people were sick all over the…Very many, many people had died (Polty and Evan 1985) in Pratt (2021:10).</small>",
         "startDate": 1925,
-        "endDate": 1925,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1925
       },
       "geometry": {
         "type": "Point",
@@ -1988,9 +1938,7 @@
         "name": "m145",
         "description": "An influenza outbreak in Anvik and Holy Cross occurs right after a major flood. (Van Stone, 1979:227)",
         "startDate": 1925,
-        "endDate": 1925,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1925
       },
       "geometry": {
         "type": "Point",
@@ -2003,9 +1951,7 @@
         "name": "m146",
         "description": "The Federal Government uses its military hospital at Tanana as a TB Sanitarium for Dene peoples of the interior.",
         "startDate": 1926,
-        "endDate": 1926,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1926
       },
       "geometry": {
         "type": "Point",
@@ -2018,9 +1964,7 @@
         "name": "m147",
         "description": "An influenza epidemic hits in Anvik, a lower Yukon Deg X'itan village; 27 adults die.<br><br>\"The villagers were so frightened by this second outbreak in less than three years that many fled the parent settlement and established a new community called Lower Anvik about 2 miles downriver.\" (Van Stone, 1979:227)",
         "startDate": 1927,
-        "endDate": 1927,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1927
       },
       "geometry": {
         "type": "Point",
@@ -2030,12 +1974,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "m148",
+        "description": "An epidemic decimates the village of Chernofski on the Aleutian Islands. Survivors move to Kashega and Unalaska. (Black, 1980:111)",
+        "startDate": 1928,
+        "endDate": 1928
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-167.56,53.39]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "m149",
         "description": "A new hospital is built in Tanana, treating mostly TB.",
         "startDate": 1941,
-        "endDate": 1941,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1941
       },
       "geometry": {
         "type": "Point",
@@ -2048,9 +2003,7 @@
         "name": "m150",
         "description": "A flu epidemic hits Kodiak villages. (Kahutak interview/Alutiiq museum)",
         "startDate": 1947,
-        "endDate": 1947,
-        "dataRef": "",
-        "imageUrl": ""
+        "endDate": 1947
       },
       "geometry": {
         "type": "Point",
@@ -2061,11 +2014,11 @@
       "type": "Feature",
       "properties": {
         "name": "m151",
-        "description": "The Public Health Service Hospital opens in Anchorage, treating mostly TB patients.",
-        "startDate": 1956,
-        "endDate": 1956,
-        "dataRef": "",
-        "imageUrl": ""
+        "description": "The Public Health Service Hospital, now the Alaska Native Medical Center, opens in Anchorage, treating mostly TB patients.",
+        "startDate": 1953,
+        "endDate": 1953,
+        "extLink": "http://anmc.org/history/",
+        "extLinkTxt": "Learn more about history of the Alaska Native Medical Center"
       },
       "geometry": {
         "type": "Point",
@@ -2075,16 +2028,40 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "m153",
-        "description": "",
-        "startDate": 1964,
-        "endDate": 1989,
-        "dataRef": "",
-        "imageUrl": ""
+        "name": "m152",
+        "description": "The Village Health Aide Program is established.",
+        "startDate": 1968,
+        "endDate": 1968
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [-149.88,61.18]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m153",
+        "description": "Native suicide rates increase by 500%, most alcohol related. (Napoleon 1995:5)",
+        "startDate": 1964,
+        "endDate": 1989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.81,61.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "m154",
+        "description": "Every ten days, an Alaska Native commits suicide. Out of them, 505 are between 15-24 years of age. (Napoleon, 1995:5)",
+        "startDate": 1980,
+        "endDate": 1989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.95,61.14]
       }
     },
     {
@@ -2094,8 +2071,8 @@
         "description": "The Covid Influenza Pandemic hits Alaska. Out of 239,199 total cases (as of April 10, 2022), 61,562 are Alaska Natives.",
         "startDate": 2020,
         "endDate": 2020,
-        "dataRef": "https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/",
-        "imageUrl": ""
+        "extLink": "https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/",
+        "extLinkTxt": "See the Archived Alaska COVID-19 Information Hub"
       },
       "geometry": {
         "type": "Point",

@@ -7,10 +7,18 @@
             text-align: center;
         }
 
-        img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
+        p {
+            padding-left: 25px;
+            padding-right: 25px
+        }
+
+        .bio {
+            height: 500px;
+        }
+
+        h1 {
+            padding-left: 25px;
+            padding-right: 25px
         }
 
         .Header {
@@ -27,8 +35,9 @@
             margin: 25px;
             border: 5px outset gray;
             width: 250px;
-            height: 500px;
+            height: 600px;
             text-align: center;
+            vertical-align: top;
             background-color: gainsboro;
         }
 
@@ -48,24 +57,43 @@
 <body>
     <div class="Header">Credits</div>
     <div class="CreditBox">
-        <h1>Dr. Maria Williams</h1>
-        <p><img src=data/images/maria.png></p>
-        <p>Words</p>
+        <div class="bio">
+            <h1>Dr. Maria Williams</h1>
+            <p><img src=data/images/mariascaled.png></p>
+            <p>Alaska Native Studies Program Chair at UAA. Editor of <i>The Alaska Native Reader</i>, a collection of writings, arts, and other pieces documenting Alaska Native history and culture. Provided factual basis for map.</p>
+        </div>
+        <div class="contact">
+            <p>Contact: <a href="mailto:mdwilliams6@alaska.edu">mdwilliams6@alaska.edu</a></p>
+        </div>
     </div>
     <div class="CreditBox">
-        <h1>Dr. Pradeeban Kathiravelu</h1>
-        <p><img src=data/images/pradeeban.png></p>
-        <p>Words</p>
+        <div class="bio">
+            <h1>Dr. Pradeeban Kathiravelu</h1>
+            <p><img src=data/images/pradeebanscaled.png></p>
+            <p>Assistant Professor in the Department of Computer Science at UAA. Researcher with a focus on innovating data science for healthcare fields. Oversaw technical implementation of the map.</p>    
+        </div>
+        <div class="contact">
+            <p>Contact: <a href="mailto:pkathiravelu@alaska.edu">pkathiravelu@alaska.edu</a></p>
+        </div>
     </div>
     <div class="CreditBox">
-        <h1>Mary Kollander</h1>
-        <p><img src=data/images/mary.jpg></p>
-        <p>Words</p>
+        <div class="bio">
+            <h1>Mary Kollander</h1>
+            <p><img src=data/images/maryscaled.png></p>
+            <p>B.S. of Computer Science from UAA. Enthusiast of interactive data visualization, with an interest in applying said enthusiasm to cloud security analytics. Main developer for map.</p>
+        </div>
+        <div class="contact">
+            <p>Contact: <a href="mailto:mgkollander@alaska.edu">mgkollander@alaska.edu</a></p>
+        </div>
     </div>
     <div class="CreditBox">
-        <h1>Robert Hollowood</h1>
-        <p><img src=data/images/robert.png></p>
-        <p>Words</p>
+        <div class="bio">
+            <h1>Robert Hollowood</h1>
+            <p><img src=data/images/robertscaled.png></p>
+            <p>B.S. of Computer Science from UAA. Algorithm aficionado who loves learning about computer science and sharing that information with others. Main designer and communicator for map.</p>
+        </div>
+        <div class="contact">
+            <p>Contact: <a href="mailto:rjhollowood@alaska.edu">rjhollowood@alaska.edu</a></p>
+        </div>
     </div>
-    <!--<a href="index.html"><div class="Footer">Go Back</div></a>-->
 </body>
